@@ -1,0 +1,4822 @@
+﻿{
+  "aelibCompliantVersion": "201710",
+  "apiVersion": "1.6",
+  "authorApp": "aefx",
+  "authorID": "",
+  "capsuleID": "a2c22a05-f9d4-4e28-98aa-16aedc9591e0",
+  "capsuleName": "DZIEŃ",
+  "capsuleNameLocalized": {
+    "strDB": [
+      {
+        "localeString": "en_US",
+        "str": "DZIEŃ"
+      }
+    ]
+  },
+  "capsuleTags": [],
+  "clientControls": [
+    {
+      "canAnimate": true,
+      "id": "d75efd8d-ab5f-4902-a461-1aa89cbb984c",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "PROGNOZA POGODY DZIŚ/JUTRO "
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wersja dzień"
+          }
+        ]
+      }
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 70
+      },
+      "id": "68634115-a34f-4cb1-b191-98eb7b614263",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Na kiedy mapka? (DZIŚ, JUTRO) Wpisz obok!"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "DZIŚ"
+          }
+        ]
+      }
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 100
+      },
+      "id": "372021fd-8e54-4fc6-bee5-631492de3dd2",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Ciśnienie:"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "1000 hPa"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "205f0cc6-041e-4607-bb8a-07c598a914d7",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "NAMYSŁÓW"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "b86e515d-542f-48ef-9f39-4b6712e2be9a", "0b41d4e1-4cf4-4916-9b20-16d1e0797720", "04d70674-ca83-449a-91ca-0123b5441947", "0e5fe508-2396-4af5-8441-d5fac3806919", "f592c954-88c6-429e-b9ca-f38bbdd7156c", "cf337f32-87dd-473c-a1ba-d6b3e66c19d7", "d84cbb35-4535-419c-b16e-687b99bc2ae7", "6dc30e6e-e39b-4d1c-80f8-c9282fbc3b01", "8b4f57d3-fd1a-4a9e-ab94-99e78cced999", "ed07ef1d-939c-4998-be19-b127d7c73a44", "0b9b42b2-65c8-4f4c-92e9-27667d39a90d", "84022cb4-90e4-4072-8347-1d831121b8ea", "8e2d95d3-bbdc-4116-82ef-1a342440e515", "a9f11620-5557-499e-87d3-2d7572144bb6", "5e1dc74a-6ddd-49f0-a0b5-6989259a1117" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "b86e515d-542f-48ef-9f39-4b6712e2be9a",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "0b41d4e1-4cf4-4916-9b20-16d1e0797720",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Namysłowie?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "04d70674-ca83-449a-91ca-0123b5441947",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "0e5fe508-2396-4af5-8441-d5fac3806919",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "f592c954-88c6-429e-b9ca-f38bbdd7156c",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenie "
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "cf337f32-87dd-473c-a1ba-d6b3e66c19d7",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotny deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "d84cbb35-4535-419c-b16e-687b99bc2ae7",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "6dc30e6e-e39b-4d1c-80f8-c9282fbc3b01",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "8b4f57d3-fd1a-4a9e-ab94-99e78cced999",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "ed07ef1d-939c-4998-be19-b127d7c73a44",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "0b9b42b2-65c8-4f4c-92e9-27667d39a90d",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "84022cb4-90e4-4072-8347-1d831121b8ea",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "8e2d95d3-bbdc-4116-82ef-1a342440e515",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Silny wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "a9f11620-5557-499e-87d3-2d7572144bb6",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "5e1dc74a-6ddd-49f0-a0b5-6989259a1117",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "23eacd27-7468-422a-b5d6-3428d2bf71cd",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "KLUCZBORK"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "eabc3466-fc45-4f7c-94bf-449607b83c59", "d192f1a6-78c4-4077-840b-9dab798b5686", "a2ed2d1d-b9cd-4efb-b0f1-75db996f88f2", "5ad2c71d-6465-40ce-87eb-cbb63a4d3db2", "daf7a2ca-4efd-40c1-bac9-82bcf4ab3b3f", "142aad69-889d-4c79-a364-ede5e92ef718", "db2eb67b-a873-4004-9eab-7e9e180e9590", "e7360b9f-7946-404d-a10f-64853657c167", "7bb183f1-562e-4792-9de1-f80010a633a2", "cb58788d-bbb1-4fb0-95a9-01ccd9c4a1f1", "d3fdc67f-40d5-445b-97db-11a8cd02f065", "e91aef8b-f476-4fa0-b3ea-ab97789eb223", "9e69b484-a616-4338-abca-921f829ab8c9", "b6ee5c01-948b-4068-9d71-a1f69da68dcb", "6ea0d4f8-adec-4487-835a-c4fc37b7e1b5" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "eabc3466-fc45-4f7c-94bf-449607b83c59",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura:"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "d192f1a6-78c4-4077-840b-9dab798b5686",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Kluczborku?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "b6ee5c01-948b-4068-9d71-a1f69da68dcb",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "9e69b484-a616-4338-abca-921f829ab8c9",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "e91aef8b-f476-4fa0-b3ea-ab97789eb223",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "d3fdc67f-40d5-445b-97db-11a8cd02f065",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "6ea0d4f8-adec-4487-835a-c4fc37b7e1b5",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "cb58788d-bbb1-4fb0-95a9-01ccd9c4a1f1",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "7bb183f1-562e-4792-9de1-f80010a633a2",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "e7360b9f-7946-404d-a10f-64853657c167",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "db2eb67b-a873-4004-9eab-7e9e180e9590",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "142aad69-889d-4c79-a364-ede5e92ef718",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "daf7a2ca-4efd-40c1-bac9-82bcf4ab3b3f",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Silny wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "5ad2c71d-6465-40ce-87eb-cbb63a4d3db2",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "a2ed2d1d-b9cd-4efb-b0f1-75db996f88f2",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "ccb7c5e6-8f94-4a1d-93c8-876315247a7b",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "OLESNO"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "2d8c1d62-6f96-4176-9d6a-c4044c5b0e47", "feeb0aa3-ce49-4f0d-8b89-233b4f598bd9", "d9744d4b-733c-48d3-b2be-551df90d543f", "ddf0ea6f-1df5-4f89-bfe0-b22ccf472a71", "55314b04-42a7-49b1-81ef-f40d6d5d586e", "8cc1e82b-f90b-4828-b1a2-647b7aba6063", "94beb6cc-f18a-4418-af65-65d71577ca18", "cd0bc7f4-e600-4093-beb4-8559e0049bd5", "af41c1c3-b0f3-4ecc-a098-abc8932823f4", "720d626a-161e-4375-bc4b-6efb8e4081a7", "a371e57d-7efc-4177-a88c-0671b2ae9725", "07be585b-8617-4bb4-9600-c7cd34193d07", "f8c87e3c-a059-41df-a27d-0f9d7ac47993", "396fd2ab-cbce-48e0-8c22-83b132345e90", "ffe17855-2383-4ac2-8097-cb2d13e23f54" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "2d8c1d62-6f96-4176-9d6a-c4044c5b0e47",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "feeb0aa3-ce49-4f0d-8b89-233b4f598bd9",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Oleśnie?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "ffe17855-2383-4ac2-8097-cb2d13e23f54",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "396fd2ab-cbce-48e0-8c22-83b132345e90",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "f8c87e3c-a059-41df-a27d-0f9d7ac47993",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "07be585b-8617-4bb4-9600-c7cd34193d07",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "a371e57d-7efc-4177-a88c-0671b2ae9725",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "720d626a-161e-4375-bc4b-6efb8e4081a7",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "af41c1c3-b0f3-4ecc-a098-abc8932823f4",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "cd0bc7f4-e600-4093-beb4-8559e0049bd5",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "94beb6cc-f18a-4418-af65-65d71577ca18",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "8cc1e82b-f90b-4828-b1a2-647b7aba6063",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "55314b04-42a7-49b1-81ef-f40d6d5d586e",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "SIlny wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "ddf0ea6f-1df5-4f89-bfe0-b22ccf472a71",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "d9744d4b-733c-48d3-b2be-551df90d543f",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "2989063e-a90a-4870-9f7c-dfad21b923d5",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "BRZEG"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "6077c892-f8cf-4639-8765-a3cbe1ca27fa", "34d7b4d8-09e7-4e62-aa32-6fc0f2b52f1e", "925dca98-0276-49ff-af48-04c2760d8df8", "c1deb893-474c-427a-8c7b-bc7bd6576da2", "160f69e1-2c55-4f1e-a5b1-61e58ff5168f", "6b0e867d-c884-412c-8d06-3026c92c3748", "3920a813-f0cd-4e2a-b580-81f43310af06", "f0ca0d7d-6735-4d6b-bd1a-a887bee0d398", "43396132-e731-4c5b-a7dc-726b0ee092fd", "e4b06fb3-f744-4fd1-8b91-3e5b89ee8c46", "ebf4b49e-5033-45c6-bb5b-829b4c110076", "d9cba754-708b-4e06-9d30-a6cb36ac4e14", "6efb61ef-edab-4bcc-9b60-9f3844865d1d", "be9c9888-f8a3-4bfc-b7f8-073d6d0006c8", "5a3a8cfb-80e6-4822-9c32-3e30293f4772" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "6077c892-f8cf-4639-8765-a3cbe1ca27fa",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura:"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "34d7b4d8-09e7-4e62-aa32-6fc0f2b52f1e",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Brzegu?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "5a3a8cfb-80e6-4822-9c32-3e30293f4772",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "be9c9888-f8a3-4bfc-b7f8-073d6d0006c8",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "6efb61ef-edab-4bcc-9b60-9f3844865d1d",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "d9cba754-708b-4e06-9d30-a6cb36ac4e14",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "ebf4b49e-5033-45c6-bb5b-829b4c110076",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "e4b06fb3-f744-4fd1-8b91-3e5b89ee8c46",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "43396132-e731-4c5b-a7dc-726b0ee092fd",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "f0ca0d7d-6735-4d6b-bd1a-a887bee0d398",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "3920a813-f0cd-4e2a-b580-81f43310af06",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "6b0e867d-c884-412c-8d06-3026c92c3748",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "160f69e1-2c55-4f1e-a5b1-61e58ff5168f",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Sily wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "c1deb893-474c-427a-8c7b-bc7bd6576da2",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "925dca98-0276-49ff-af48-04c2760d8df8",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "b93a62fe-cf0a-4c2c-935c-7175bb788314",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "OPOLE"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "3d0b0185-8dba-4fec-b1e1-11bb2a8ea4c1", "9ebdac0e-b493-434c-97fb-dd820b477a34", "39eca5fe-cc49-4a5e-bba9-c491ce0a1e66", "40359adf-114d-4fca-aecb-f8d8b4478b5b", "e03372c3-fe8f-45fc-bf9e-0ce8868898ee", "7caaba83-d7e1-4845-a041-0428ea9df78f", "5d05bcb5-99c0-4dc9-a393-564a6f932f0e", "f148fb92-9897-4965-91b1-cfee8d65f208", "4218080a-9cd3-48e3-a29b-f28a87e1cfd5", "e0647390-d8c9-4fd9-9a32-9e991170c099", "a7508c07-cba3-4ea9-9d58-dcecfa0f7d38", "2c8883eb-fa06-439d-9bfd-da02f71138b5", "f7b31a21-bdbc-4b61-9351-ad70ef6de58f", "e0d41a27-673c-4e29-af5c-56cc973b7e63", "e3039739-8b75-46ce-84b3-5c520a0b63ec" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "3d0b0185-8dba-4fec-b1e1-11bb2a8ea4c1",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura:"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "9ebdac0e-b493-434c-97fb-dd820b477a34",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Opolu?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "e0d41a27-673c-4e29-af5c-56cc973b7e63",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "f7b31a21-bdbc-4b61-9351-ad70ef6de58f",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "2c8883eb-fa06-439d-9bfd-da02f71138b5",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "a7508c07-cba3-4ea9-9d58-dcecfa0f7d38",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotn opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "e3039739-8b75-46ce-84b3-5c520a0b63ec",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "e0647390-d8c9-4fd9-9a32-9e991170c099",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "4218080a-9cd3-48e3-a29b-f28a87e1cfd5",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "f148fb92-9897-4965-91b1-cfee8d65f208",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "5d05bcb5-99c0-4dc9-a393-564a6f932f0e",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "7caaba83-d7e1-4845-a041-0428ea9df78f",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "e03372c3-fe8f-45fc-bf9e-0ce8868898ee",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Silny wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "40359adf-114d-4fca-aecb-f8d8b4478b5b",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "39eca5fe-cc49-4a5e-bba9-c491ce0a1e66",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "47a693c2-f612-4c85-88a2-4d9476733ac0",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "STRZELCE OPOLSKIE"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "f5ba4791-d0e3-4245-94d7-d158dc8c3467", "c2a68376-8dad-4f48-826b-e797a7964cb9", "37f4c633-cf1d-481a-8b9b-55cb7569cdfa", "3b70fdd6-77f3-4cdc-8b78-e083d959d354", "3606975a-c51b-4bae-9a71-e007471eb446", "9b5a64b6-6332-4f2f-af93-c2b8b592a42b", "bc52cafd-253b-4214-b862-e85d6018fe3b", "cdb75f17-77b1-4b48-9ae2-6583c5fdb296", "a492bb3a-deea-4a86-a829-96aef052c621", "885ff388-4b42-4fd6-aaea-484ecb2ca720", "2f56a2fd-6fd9-4c23-b75e-d132d3efb388", "103dea9a-307a-4542-a795-f798dbcd6c4d", "1e1f5918-dcd4-45b2-ad29-16a0a259f587", "88dc4a12-9a8d-4bb8-ae20-5e351dcd4646", "0636995f-dd31-408f-b980-277c5892938e" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "f5ba4791-d0e3-4245-94d7-d158dc8c3467",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura:"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "c2a68376-8dad-4f48-826b-e797a7964cb9",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Strzelcach Opolskich?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "37f4c633-cf1d-481a-8b9b-55cb7569cdfa",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "3b70fdd6-77f3-4cdc-8b78-e083d959d354",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "3606975a-c51b-4bae-9a71-e007471eb446",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "9b5a64b6-6332-4f2f-af93-c2b8b592a42b",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "bc52cafd-253b-4214-b862-e85d6018fe3b",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "cdb75f17-77b1-4b48-9ae2-6583c5fdb296",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "a492bb3a-deea-4a86-a829-96aef052c621",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "885ff388-4b42-4fd6-aaea-484ecb2ca720",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "2f56a2fd-6fd9-4c23-b75e-d132d3efb388",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "103dea9a-307a-4542-a795-f798dbcd6c4d",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "1e1f5918-dcd4-45b2-ad29-16a0a259f587",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "SIlny wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "88dc4a12-9a8d-4bb8-ae20-5e351dcd4646",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "0636995f-dd31-408f-b980-277c5892938e",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "0d43a6b3-7463-4864-b2ba-fae71643f37e",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "NYSA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "2eae43f4-4df8-46c7-aefa-e8e160ea2eb6", "9a8570de-fcb9-4233-b91d-0d7d514a8a81", "235b0759-dbd9-456c-bfc6-22ab624833c0", "d515b050-0f05-4f84-875a-74d700bc9941", "5e750e90-e5b6-4d52-ac0f-32094cb249ac", "612075f2-a1bf-4ad7-938a-d1676e35bc1d", "9e6ab591-330f-49d4-b4c1-abffd1279137", "c5879e71-55c9-4423-a9d6-9e5bdbc9ec38", "c24c0961-59f9-4dc5-815f-1a1d712384bf", "d7c5c045-2637-490d-8b51-3dadedc20dc0", "e0e8c23e-1a8f-4efa-b812-04674278f863", "be574268-5df0-4a0a-ba1a-da631822678d", "e4a554d8-bd62-46bf-a8aa-aad333d8bb6c", "7b3c823f-35e1-458a-bb85-b386ec709fae", "d1ffc44c-39f4-4d4c-abdc-73e9b527d7f7" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "2eae43f4-4df8-46c7-aefa-e8e160ea2eb6",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura:"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "9a8570de-fcb9-4233-b91d-0d7d514a8a81",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Nysie?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "d1ffc44c-39f4-4d4c-abdc-73e9b527d7f7",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "7b3c823f-35e1-458a-bb85-b386ec709fae",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "e4a554d8-bd62-46bf-a8aa-aad333d8bb6c",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "be574268-5df0-4a0a-ba1a-da631822678d",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "e0e8c23e-1a8f-4efa-b812-04674278f863",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "d7c5c045-2637-490d-8b51-3dadedc20dc0",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "c24c0961-59f9-4dc5-815f-1a1d712384bf",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "c5879e71-55c9-4423-a9d6-9e5bdbc9ec38",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "9e6ab591-330f-49d4-b4c1-abffd1279137",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "612075f2-a1bf-4ad7-938a-d1676e35bc1d",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "5e750e90-e5b6-4d52-ac0f-32094cb249ac",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Silny wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "d515b050-0f05-4f84-875a-74d700bc9941",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "235b0759-dbd9-456c-bfc6-22ab624833c0",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "c7ed042c-8cd0-40f8-9fa0-5592f58fbc53",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "KRAPKOWICE"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "0b54f7c4-1c68-4456-ab74-97f50e6a514a", "b1f74d14-caea-490d-a4ba-590298b518d6", "56b2b5af-cc6f-420c-b8c7-f2ba4bb2a176", "2ea505a1-596b-4a03-9c56-65aab49ec7df", "865e12bb-a9a5-4ced-9fdf-908a04f79352", "97dc0dd5-fcbd-4941-99d0-2e7803294de3", "1af793ad-2863-4990-9e06-43000efc1746", "6a365343-fd1a-4a6e-984a-e4270fc7554a", "c6fc1374-094d-420b-a2f9-d0fd7e245362", "4425618c-06ae-460b-91dc-e085608db58b", "c177e69a-fa80-402e-ade1-209a13a88507", "5ebf4c9d-254e-46f7-b1b8-6872c471f170", "c909cf7c-037e-4eec-887b-210940ddb540", "087b189b-47f8-44a1-8306-bb4b63719d91", "8eab9ca9-b1b9-40a0-b3c7-64e45d710177" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "0b54f7c4-1c68-4456-ab74-97f50e6a514a",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura:"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "b1f74d14-caea-490d-a4ba-590298b518d6",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Krapkowicach?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "8eab9ca9-b1b9-40a0-b3c7-64e45d710177",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "087b189b-47f8-44a1-8306-bb4b63719d91",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "c909cf7c-037e-4eec-887b-210940ddb540",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "5ebf4c9d-254e-46f7-b1b8-6872c471f170",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "c177e69a-fa80-402e-ade1-209a13a88507",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "4425618c-06ae-460b-91dc-e085608db58b",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "c6fc1374-094d-420b-a2f9-d0fd7e245362",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "6a365343-fd1a-4a6e-984a-e4270fc7554a",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "1af793ad-2863-4990-9e06-43000efc1746",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "97dc0dd5-fcbd-4941-99d0-2e7803294de3",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "865e12bb-a9a5-4ced-9fdf-908a04f79352",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Silny wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "2ea505a1-596b-4a03-9c56-65aab49ec7df",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "56b2b5af-cc6f-420c-b8c7-f2ba4bb2a176",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "6450e8b9-f11f-49f5-b5e5-1502ca89c68e",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "KĘDZIERZYN-KOŹLE"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "c417a9c5-4824-409e-be02-b297a94f0eff", "cc976911-eede-421a-86c8-36a97052ba27", "b8b6d037-a737-4f3a-8a94-1608c3d98545", "68b76249-33c5-4074-94eb-150efe6cd7d3", "188e64c8-0ab2-4bf9-b7b7-4fcd99575748", "37657de8-156d-43db-b59e-250f920540fc", "4c643a8d-82ba-4254-95e9-5d1f82a1d668", "3d253641-1050-41e4-b907-a36669ba5629", "91cc102b-d937-41c9-990f-8b31a69e934f", "b538518c-c60f-46bb-83ec-a2fe86eac099", "648a8bf3-3f70-458b-aaa1-4a80cae1398d", "efec5dda-ae4d-4ffa-b8c6-9f01c8db714c", "20af0ac5-d14a-479e-8108-190cb8997a92", "9faae0bf-f93b-47da-ad0c-1b8a1fefe7e3", "c1b30900-3ce2-4cde-a4e6-ecd72fee453b" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "c417a9c5-4824-409e-be02-b297a94f0eff",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura:"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "cc976911-eede-421a-86c8-36a97052ba27",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Kędzierzynie-Koźlu?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "9faae0bf-f93b-47da-ad0c-1b8a1fefe7e3",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "20af0ac5-d14a-479e-8108-190cb8997a92",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "efec5dda-ae4d-4ffa-b8c6-9f01c8db714c",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "648a8bf3-3f70-458b-aaa1-4a80cae1398d",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "b538518c-c60f-46bb-83ec-a2fe86eac099",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "91cc102b-d937-41c9-990f-8b31a69e934f",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "3d253641-1050-41e4-b907-a36669ba5629",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "c1b30900-3ce2-4cde-a4e6-ecd72fee453b",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "4c643a8d-82ba-4254-95e9-5d1f82a1d668",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "37657de8-156d-43db-b59e-250f920540fc",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "188e64c8-0ab2-4bf9-b7b7-4fcd99575748",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Silny wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "68b76249-33c5-4074-94eb-150efe6cd7d3",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "b8b6d037-a737-4f3a-8a94-1608c3d98545",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "0f581f0a-e1ab-4141-b2e3-0f8dd5a876c0",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "PRUDNIK"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "cb8d4247-0bd1-4327-9648-4c1b4acecebc", "16e86026-3ae2-4088-be50-28520748d76e", "85cd5f4a-92f0-48db-ac9c-689917879432", "4110986e-7d16-4bc4-946b-ed4440297b14", "f0e3bf13-77ea-40b2-90a5-6946039d29c7", "cb42ea2f-ad6b-4159-affd-40de406b5312", "9d10ecad-5176-4db5-8cf6-1c9fb764536b", "0110bf66-7a82-40d7-bd91-f3fdc615cc31", "af19257b-482f-48be-ab8b-510ab5404b88", "8531699a-5825-4598-9acb-3d3fbef3ecd6", "d7279397-46b2-4d78-bc59-4cbae80fd916", "675ce96c-847d-45e6-a5ef-294c10eee178", "260dbb13-a3f7-472d-ae4e-0b59cf47af44", "b306356e-7268-4f26-94d0-ba3368842ec2", "61ebcd4b-0090-4e05-8e3b-b79c118a89ac" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "cb8d4247-0bd1-4327-9648-4c1b4acecebc",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura:"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "16e86026-3ae2-4088-be50-28520748d76e",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Prudniku?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "61ebcd4b-0090-4e05-8e3b-b79c118a89ac",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "b306356e-7268-4f26-94d0-ba3368842ec2",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "260dbb13-a3f7-472d-ae4e-0b59cf47af44",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "675ce96c-847d-45e6-a5ef-294c10eee178",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "d7279397-46b2-4d78-bc59-4cbae80fd916",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "8531699a-5825-4598-9acb-3d3fbef3ecd6",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "af19257b-482f-48be-ab8b-510ab5404b88",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "0110bf66-7a82-40d7-bd91-f3fdc615cc31",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "9d10ecad-5176-4db5-8cf6-1c9fb764536b",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "cb42ea2f-ad6b-4159-affd-40de406b5312",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "f0e3bf13-77ea-40b2-90a5-6946039d29c7",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "SIlny wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "4110986e-7d16-4bc4-946b-ed4440297b14",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "85cd5f4a-92f0-48db-ac9c-689917879432",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": false,
+      "id": "015ce9c4-4357-48f7-bee9-8bab744a9695",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "GŁUBCZYCE"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "df675a2c-ef96-4ada-b6e1-825757ee65fe", "41c55f1b-cf3e-48d5-8dc5-7750757996d4", "ee78989e-b475-468a-8259-01e6df68f8e8", "4a06e82a-749e-422f-a01f-0ab55200df5e", "2c45a2b6-6eec-4335-a441-967a41fc7640", "0531fd7d-21bc-4d80-9945-3e21b5bd1cf1", "0079b4ae-d7f8-43aa-aa2f-8391803536e1", "de7551cc-5de5-4317-b90d-3d84d3aad035", "113c7284-09c8-4560-ad37-e8a869fc3011", "54f0e75c-2a2d-45ef-b766-0bf987fd46e0", "2a2eeaac-cdc7-4937-9f7b-e7f47730caab", "6155c1f0-79ae-4355-8377-c7db5aa99186", "d3e707c6-3ef1-40d1-a0f2-78747dff80c3", "d62886d7-64a7-469a-a610-56ab2fcde1b3", "61a46bea-7814-4fa1-973f-406d5761c233" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Rajdhani-Bold",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 180
+      },
+      "id": "df675a2c-ef96-4ada-b6e1-825757ee65fe",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Temperatura:"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "28˚"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "41c55f1b-cf3e-48d5-8dc5-7750757996d4",
+      "type": 8,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Jaka pogoda w Głubczycach?"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Wybierz tylko jeden typ pogody!"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "61a46bea-7814-4fa1-973f-406d5761c233",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Słonecznie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": true
+    },
+    {
+      "canAnimate": true,
+      "id": "d62886d7-64a7-469a-a610-56ab2fcde1b3",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przejaśnienia"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "d3e707c6-3ef1-40d1-a0f2-78747dff80c3",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Zachmurzenie"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "6155c1f0-79ae-4355-8377-c7db5aa99186",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Przelotne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "2a2eeaac-cdc7-4937-9f7b-e7f47730caab",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Deszcz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "54f0e75c-2a2d-45ef-b766-0bf987fd46e0",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Intensywne opady deszczu"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "113c7284-09c8-4560-ad37-e8a869fc3011",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Burza"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "de7551cc-5de5-4317-b90d-3d84d3aad035",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "0079b4ae-d7f8-43aa-aa2f-8391803536e1",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Śnieg z deszczem"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "0531fd7d-21bc-4d80-9945-3e21b5bd1cf1",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mgła"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "2c45a2b6-6eec-4335-a441-967a41fc7640",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Silny wiatr"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "4a06e82a-749e-422f-a01f-0ab55200df5e",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Upał"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    },
+    {
+      "canAnimate": true,
+      "id": "ee78989e-b475-468a-8259-01e6df68f8e8",
+      "type": 1,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "Mróz"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": false
+    }
+  ],
+  "description": "",
+  "internalEffectsOnlyVersion": "0",
+  "licenseID": "",
+  "mobileCompatibilityVersion": "0",
+  "platformSupport": [ "ppro" ],
+  "responsiveDesignVersion": "0",
+  "sourceInfoLocalized": {
+    "en_US": {
+      "alphachanneltype": 1,
+      "alphamattecolorb": 0,
+      "alphamattecolorg": 0,
+      "alphamattecolorr": 0,
+      "anywhereassetrequestinfo": {
+        "mAssetInfo": {
+          "mAssetIdentifier": "",
+          "mProductionIdentifier": "",
+          "mProductionRevision": ""
+        },
+        "mServerConnectInfo": {
+          "mAuthToken": "",
+          "mEARPort": "",
+          "mUserName": ""
+        }
+      },
+      "anywhereproductionrequestinfo": {
+        "mProductionInfo": {
+          "mDisplayName": "",
+          "mProductionIdentifier": "",
+          "mRevision": ""
+        },
+        "mServerConnectInfo": {
+          "mAuthToken": "",
+          "mEARPort": "",
+          "mUserName": ""
+        }
+      },
+      "appspecificsourceinfo": "{\"applicationID\":\"AfterEffects\",\"artisanQuality\":0,\"capsuleparamvalues\":{\"capParamValues\":[]},\"downSampleX\":1,\"downSampleY\":1,\"enableMenaIndic\":false,\"fieldType\":4,\"flatArtisanOptions\":[0,0,0,1,0,0,0,0,0,0,0,0],\"needsToPatchSourceForDownsample\":false,\"renderguidelayers\":false,\"stretchFactor\":1,\"stretchOffset\":0,\"useAELib\":false,\"version\":10}",
+      "audiochannellayout": [
+        { "channellabel": 100 },
+        { "channellabel": 101 }
+      ],
+      "audiosamplerate": { "ticksperframe": 5292000 },
+      "capsuleparams": {
+        "capParams": [
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wersja dzień",
+            "capPropMatchName": "d75efd8d-ab5f-4902-a461-1aa89cbb984c",
+            "capPropType": 4,
+            "capPropUIName": "PROGNOZA POGODY DZIŚ/JUTRO "
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "DZIŚ",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "68634115-a34f-4cb1-b191-98eb7b614263",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Na kiedy mapka? (DZIŚ, JUTRO) Wpisz obok!",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 70 ],
+            "fontTextRunLength": [ 4 ],
+            "textEditValue": "DZIŚ"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "1000 hPa",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "372021fd-8e54-4fc6-bee5-631492de3dd2",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Ciśnienie:",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 100 ],
+            "fontTextRunLength": [ 8 ],
+            "textEditValue": "1000 hPa"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "b86e515d-542f-48ef-9f39-4b6712e2be9a", "0b41d4e1-4cf4-4916-9b20-16d1e0797720", "04d70674-ca83-449a-91ca-0123b5441947", "0e5fe508-2396-4af5-8441-d5fac3806919", "f592c954-88c6-429e-b9ca-f38bbdd7156c", "cf337f32-87dd-473c-a1ba-d6b3e66c19d7", "d84cbb35-4535-419c-b16e-687b99bc2ae7", "6dc30e6e-e39b-4d1c-80f8-c9282fbc3b01", "8b4f57d3-fd1a-4a9e-ab94-99e78cced999", "ed07ef1d-939c-4998-be19-b127d7c73a44", "0b9b42b2-65c8-4f4c-92e9-27667d39a90d", "84022cb4-90e4-4072-8347-1d831121b8ea", "8e2d95d3-bbdc-4116-82ef-1a342440e515", "a9f11620-5557-499e-87d3-2d7572144bb6", "5e1dc74a-6ddd-49f0-a0b5-6989259a1117" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "205f0cc6-041e-4607-bb8a-07c598a914d7",
+            "capPropType": 8,
+            "capPropUIName": "NAMYSŁÓW"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "b86e515d-542f-48ef-9f39-4b6712e2be9a",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "0b41d4e1-4cf4-4916-9b20-16d1e0797720",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Namysłowie?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "04d70674-ca83-449a-91ca-0123b5441947",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "0e5fe508-2396-4af5-8441-d5fac3806919",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "f592c954-88c6-429e-b9ca-f38bbdd7156c",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenie "
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "cf337f32-87dd-473c-a1ba-d6b3e66c19d7",
+            "capPropType": 2,
+            "capPropUIName": "Przelotny deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "d84cbb35-4535-419c-b16e-687b99bc2ae7",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "6dc30e6e-e39b-4d1c-80f8-c9282fbc3b01",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "8b4f57d3-fd1a-4a9e-ab94-99e78cced999",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "ed07ef1d-939c-4998-be19-b127d7c73a44",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "0b9b42b2-65c8-4f4c-92e9-27667d39a90d",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "84022cb4-90e4-4072-8347-1d831121b8ea",
+            "capPropType": 2,
+            "capPropUIName": "Mgła"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "8e2d95d3-bbdc-4116-82ef-1a342440e515",
+            "capPropType": 2,
+            "capPropUIName": "Silny wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "a9f11620-5557-499e-87d3-2d7572144bb6",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "5e1dc74a-6ddd-49f0-a0b5-6989259a1117",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "eabc3466-fc45-4f7c-94bf-449607b83c59", "d192f1a6-78c4-4077-840b-9dab798b5686", "a2ed2d1d-b9cd-4efb-b0f1-75db996f88f2", "5ad2c71d-6465-40ce-87eb-cbb63a4d3db2", "daf7a2ca-4efd-40c1-bac9-82bcf4ab3b3f", "142aad69-889d-4c79-a364-ede5e92ef718", "db2eb67b-a873-4004-9eab-7e9e180e9590", "e7360b9f-7946-404d-a10f-64853657c167", "7bb183f1-562e-4792-9de1-f80010a633a2", "cb58788d-bbb1-4fb0-95a9-01ccd9c4a1f1", "d3fdc67f-40d5-445b-97db-11a8cd02f065", "e91aef8b-f476-4fa0-b3ea-ab97789eb223", "9e69b484-a616-4338-abca-921f829ab8c9", "b6ee5c01-948b-4068-9d71-a1f69da68dcb", "6ea0d4f8-adec-4487-835a-c4fc37b7e1b5" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "23eacd27-7468-422a-b5d6-3428d2bf71cd",
+            "capPropType": 8,
+            "capPropUIName": "KLUCZBORK"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "eabc3466-fc45-4f7c-94bf-449607b83c59",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura:",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "d192f1a6-78c4-4077-840b-9dab798b5686",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Kluczborku?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "b6ee5c01-948b-4068-9d71-a1f69da68dcb",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "9e69b484-a616-4338-abca-921f829ab8c9",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "e91aef8b-f476-4fa0-b3ea-ab97789eb223",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "d3fdc67f-40d5-445b-97db-11a8cd02f065",
+            "capPropType": 2,
+            "capPropUIName": "Przelotne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "6ea0d4f8-adec-4487-835a-c4fc37b7e1b5",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "cb58788d-bbb1-4fb0-95a9-01ccd9c4a1f1",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "7bb183f1-562e-4792-9de1-f80010a633a2",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "e7360b9f-7946-404d-a10f-64853657c167",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "db2eb67b-a873-4004-9eab-7e9e180e9590",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "142aad69-889d-4c79-a364-ede5e92ef718",
+            "capPropType": 2,
+            "capPropUIName": "Mgła"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "daf7a2ca-4efd-40c1-bac9-82bcf4ab3b3f",
+            "capPropType": 2,
+            "capPropUIName": "Silny wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "5ad2c71d-6465-40ce-87eb-cbb63a4d3db2",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "a2ed2d1d-b9cd-4efb-b0f1-75db996f88f2",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "2d8c1d62-6f96-4176-9d6a-c4044c5b0e47", "feeb0aa3-ce49-4f0d-8b89-233b4f598bd9", "d9744d4b-733c-48d3-b2be-551df90d543f", "ddf0ea6f-1df5-4f89-bfe0-b22ccf472a71", "55314b04-42a7-49b1-81ef-f40d6d5d586e", "8cc1e82b-f90b-4828-b1a2-647b7aba6063", "94beb6cc-f18a-4418-af65-65d71577ca18", "cd0bc7f4-e600-4093-beb4-8559e0049bd5", "af41c1c3-b0f3-4ecc-a098-abc8932823f4", "720d626a-161e-4375-bc4b-6efb8e4081a7", "a371e57d-7efc-4177-a88c-0671b2ae9725", "07be585b-8617-4bb4-9600-c7cd34193d07", "f8c87e3c-a059-41df-a27d-0f9d7ac47993", "396fd2ab-cbce-48e0-8c22-83b132345e90", "ffe17855-2383-4ac2-8097-cb2d13e23f54" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "ccb7c5e6-8f94-4a1d-93c8-876315247a7b",
+            "capPropType": 8,
+            "capPropUIName": "OLESNO"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "2d8c1d62-6f96-4176-9d6a-c4044c5b0e47",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "feeb0aa3-ce49-4f0d-8b89-233b4f598bd9",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Oleśnie?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "ffe17855-2383-4ac2-8097-cb2d13e23f54",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "396fd2ab-cbce-48e0-8c22-83b132345e90",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "f8c87e3c-a059-41df-a27d-0f9d7ac47993",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "07be585b-8617-4bb4-9600-c7cd34193d07",
+            "capPropType": 2,
+            "capPropUIName": "Przelotne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "a371e57d-7efc-4177-a88c-0671b2ae9725",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "720d626a-161e-4375-bc4b-6efb8e4081a7",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "af41c1c3-b0f3-4ecc-a098-abc8932823f4",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "cd0bc7f4-e600-4093-beb4-8559e0049bd5",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "94beb6cc-f18a-4418-af65-65d71577ca18",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "8cc1e82b-f90b-4828-b1a2-647b7aba6063",
+            "capPropType": 2,
+            "capPropUIName": "Mgła"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "55314b04-42a7-49b1-81ef-f40d6d5d586e",
+            "capPropType": 2,
+            "capPropUIName": "SIlny wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "ddf0ea6f-1df5-4f89-bfe0-b22ccf472a71",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "d9744d4b-733c-48d3-b2be-551df90d543f",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "6077c892-f8cf-4639-8765-a3cbe1ca27fa", "34d7b4d8-09e7-4e62-aa32-6fc0f2b52f1e", "925dca98-0276-49ff-af48-04c2760d8df8", "c1deb893-474c-427a-8c7b-bc7bd6576da2", "160f69e1-2c55-4f1e-a5b1-61e58ff5168f", "6b0e867d-c884-412c-8d06-3026c92c3748", "3920a813-f0cd-4e2a-b580-81f43310af06", "f0ca0d7d-6735-4d6b-bd1a-a887bee0d398", "43396132-e731-4c5b-a7dc-726b0ee092fd", "e4b06fb3-f744-4fd1-8b91-3e5b89ee8c46", "ebf4b49e-5033-45c6-bb5b-829b4c110076", "d9cba754-708b-4e06-9d30-a6cb36ac4e14", "6efb61ef-edab-4bcc-9b60-9f3844865d1d", "be9c9888-f8a3-4bfc-b7f8-073d6d0006c8", "5a3a8cfb-80e6-4822-9c32-3e30293f4772" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "2989063e-a90a-4870-9f7c-dfad21b923d5",
+            "capPropType": 8,
+            "capPropUIName": "BRZEG"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "6077c892-f8cf-4639-8765-a3cbe1ca27fa",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura:",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "34d7b4d8-09e7-4e62-aa32-6fc0f2b52f1e",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Brzegu?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "5a3a8cfb-80e6-4822-9c32-3e30293f4772",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "be9c9888-f8a3-4bfc-b7f8-073d6d0006c8",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "6efb61ef-edab-4bcc-9b60-9f3844865d1d",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "d9cba754-708b-4e06-9d30-a6cb36ac4e14",
+            "capPropType": 2,
+            "capPropUIName": "Przelotne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "ebf4b49e-5033-45c6-bb5b-829b4c110076",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "e4b06fb3-f744-4fd1-8b91-3e5b89ee8c46",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "43396132-e731-4c5b-a7dc-726b0ee092fd",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "f0ca0d7d-6735-4d6b-bd1a-a887bee0d398",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "3920a813-f0cd-4e2a-b580-81f43310af06",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "6b0e867d-c884-412c-8d06-3026c92c3748",
+            "capPropType": 2,
+            "capPropUIName": "Mgła"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "160f69e1-2c55-4f1e-a5b1-61e58ff5168f",
+            "capPropType": 2,
+            "capPropUIName": "Sily wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "c1deb893-474c-427a-8c7b-bc7bd6576da2",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "925dca98-0276-49ff-af48-04c2760d8df8",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "3d0b0185-8dba-4fec-b1e1-11bb2a8ea4c1", "9ebdac0e-b493-434c-97fb-dd820b477a34", "39eca5fe-cc49-4a5e-bba9-c491ce0a1e66", "40359adf-114d-4fca-aecb-f8d8b4478b5b", "e03372c3-fe8f-45fc-bf9e-0ce8868898ee", "7caaba83-d7e1-4845-a041-0428ea9df78f", "5d05bcb5-99c0-4dc9-a393-564a6f932f0e", "f148fb92-9897-4965-91b1-cfee8d65f208", "4218080a-9cd3-48e3-a29b-f28a87e1cfd5", "e0647390-d8c9-4fd9-9a32-9e991170c099", "a7508c07-cba3-4ea9-9d58-dcecfa0f7d38", "2c8883eb-fa06-439d-9bfd-da02f71138b5", "f7b31a21-bdbc-4b61-9351-ad70ef6de58f", "e0d41a27-673c-4e29-af5c-56cc973b7e63", "e3039739-8b75-46ce-84b3-5c520a0b63ec" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "b93a62fe-cf0a-4c2c-935c-7175bb788314",
+            "capPropType": 8,
+            "capPropUIName": "OPOLE"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "3d0b0185-8dba-4fec-b1e1-11bb2a8ea4c1",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura:",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "9ebdac0e-b493-434c-97fb-dd820b477a34",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Opolu?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "e0d41a27-673c-4e29-af5c-56cc973b7e63",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "f7b31a21-bdbc-4b61-9351-ad70ef6de58f",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "2c8883eb-fa06-439d-9bfd-da02f71138b5",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "a7508c07-cba3-4ea9-9d58-dcecfa0f7d38",
+            "capPropType": 2,
+            "capPropUIName": "Przelotn opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "e3039739-8b75-46ce-84b3-5c520a0b63ec",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "e0647390-d8c9-4fd9-9a32-9e991170c099",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "4218080a-9cd3-48e3-a29b-f28a87e1cfd5",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "f148fb92-9897-4965-91b1-cfee8d65f208",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "5d05bcb5-99c0-4dc9-a393-564a6f932f0e",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "7caaba83-d7e1-4845-a041-0428ea9df78f",
+            "capPropType": 2,
+            "capPropUIName": "Mgła"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "e03372c3-fe8f-45fc-bf9e-0ce8868898ee",
+            "capPropType": 2,
+            "capPropUIName": "Silny wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "40359adf-114d-4fca-aecb-f8d8b4478b5b",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "39eca5fe-cc49-4a5e-bba9-c491ce0a1e66",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "f5ba4791-d0e3-4245-94d7-d158dc8c3467", "c2a68376-8dad-4f48-826b-e797a7964cb9", "37f4c633-cf1d-481a-8b9b-55cb7569cdfa", "3b70fdd6-77f3-4cdc-8b78-e083d959d354", "3606975a-c51b-4bae-9a71-e007471eb446", "9b5a64b6-6332-4f2f-af93-c2b8b592a42b", "bc52cafd-253b-4214-b862-e85d6018fe3b", "cdb75f17-77b1-4b48-9ae2-6583c5fdb296", "a492bb3a-deea-4a86-a829-96aef052c621", "885ff388-4b42-4fd6-aaea-484ecb2ca720", "2f56a2fd-6fd9-4c23-b75e-d132d3efb388", "103dea9a-307a-4542-a795-f798dbcd6c4d", "1e1f5918-dcd4-45b2-ad29-16a0a259f587", "88dc4a12-9a8d-4bb8-ae20-5e351dcd4646", "0636995f-dd31-408f-b980-277c5892938e" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "47a693c2-f612-4c85-88a2-4d9476733ac0",
+            "capPropType": 8,
+            "capPropUIName": "STRZELCE OPOLSKIE"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "f5ba4791-d0e3-4245-94d7-d158dc8c3467",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura:",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "c2a68376-8dad-4f48-826b-e797a7964cb9",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Strzelcach Opolskich?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "37f4c633-cf1d-481a-8b9b-55cb7569cdfa",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "3b70fdd6-77f3-4cdc-8b78-e083d959d354",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "3606975a-c51b-4bae-9a71-e007471eb446",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "9b5a64b6-6332-4f2f-af93-c2b8b592a42b",
+            "capPropType": 2,
+            "capPropUIName": "Przelotne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "bc52cafd-253b-4214-b862-e85d6018fe3b",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "cdb75f17-77b1-4b48-9ae2-6583c5fdb296",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "a492bb3a-deea-4a86-a829-96aef052c621",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "885ff388-4b42-4fd6-aaea-484ecb2ca720",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "2f56a2fd-6fd9-4c23-b75e-d132d3efb388",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "103dea9a-307a-4542-a795-f798dbcd6c4d",
+            "capPropType": 2,
+            "capPropUIName": "Mgłas"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "1e1f5918-dcd4-45b2-ad29-16a0a259f587",
+            "capPropType": 2,
+            "capPropUIName": "SIlny wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "88dc4a12-9a8d-4bb8-ae20-5e351dcd4646",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "0636995f-dd31-408f-b980-277c5892938e",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "2eae43f4-4df8-46c7-aefa-e8e160ea2eb6", "9a8570de-fcb9-4233-b91d-0d7d514a8a81", "235b0759-dbd9-456c-bfc6-22ab624833c0", "d515b050-0f05-4f84-875a-74d700bc9941", "5e750e90-e5b6-4d52-ac0f-32094cb249ac", "612075f2-a1bf-4ad7-938a-d1676e35bc1d", "9e6ab591-330f-49d4-b4c1-abffd1279137", "c5879e71-55c9-4423-a9d6-9e5bdbc9ec38", "c24c0961-59f9-4dc5-815f-1a1d712384bf", "d7c5c045-2637-490d-8b51-3dadedc20dc0", "e0e8c23e-1a8f-4efa-b812-04674278f863", "be574268-5df0-4a0a-ba1a-da631822678d", "e4a554d8-bd62-46bf-a8aa-aad333d8bb6c", "7b3c823f-35e1-458a-bb85-b386ec709fae", "d1ffc44c-39f4-4d4c-abdc-73e9b527d7f7" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "0d43a6b3-7463-4864-b2ba-fae71643f37e",
+            "capPropType": 8,
+            "capPropUIName": "NYSA"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "2eae43f4-4df8-46c7-aefa-e8e160ea2eb6",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura:",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "9a8570de-fcb9-4233-b91d-0d7d514a8a81",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Nysie?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "d1ffc44c-39f4-4d4c-abdc-73e9b527d7f7",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "7b3c823f-35e1-458a-bb85-b386ec709fae",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "e4a554d8-bd62-46bf-a8aa-aad333d8bb6c",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "be574268-5df0-4a0a-ba1a-da631822678d",
+            "capPropType": 2,
+            "capPropUIName": "Przelotne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "e0e8c23e-1a8f-4efa-b812-04674278f863",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "d7c5c045-2637-490d-8b51-3dadedc20dc0",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "c24c0961-59f9-4dc5-815f-1a1d712384bf",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "c5879e71-55c9-4423-a9d6-9e5bdbc9ec38",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "9e6ab591-330f-49d4-b4c1-abffd1279137",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "612075f2-a1bf-4ad7-938a-d1676e35bc1d",
+            "capPropType": 2,
+            "capPropUIName": "Mgła"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "5e750e90-e5b6-4d52-ac0f-32094cb249ac",
+            "capPropType": 2,
+            "capPropUIName": "Silny wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "d515b050-0f05-4f84-875a-74d700bc9941",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "235b0759-dbd9-456c-bfc6-22ab624833c0",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "0b54f7c4-1c68-4456-ab74-97f50e6a514a", "b1f74d14-caea-490d-a4ba-590298b518d6", "56b2b5af-cc6f-420c-b8c7-f2ba4bb2a176", "2ea505a1-596b-4a03-9c56-65aab49ec7df", "865e12bb-a9a5-4ced-9fdf-908a04f79352", "97dc0dd5-fcbd-4941-99d0-2e7803294de3", "1af793ad-2863-4990-9e06-43000efc1746", "6a365343-fd1a-4a6e-984a-e4270fc7554a", "c6fc1374-094d-420b-a2f9-d0fd7e245362", "4425618c-06ae-460b-91dc-e085608db58b", "c177e69a-fa80-402e-ade1-209a13a88507", "5ebf4c9d-254e-46f7-b1b8-6872c471f170", "c909cf7c-037e-4eec-887b-210940ddb540", "087b189b-47f8-44a1-8306-bb4b63719d91", "8eab9ca9-b1b9-40a0-b3c7-64e45d710177" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "c7ed042c-8cd0-40f8-9fa0-5592f58fbc53",
+            "capPropType": 8,
+            "capPropUIName": "KRAPKOWICE"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "0b54f7c4-1c68-4456-ab74-97f50e6a514a",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura:",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "b1f74d14-caea-490d-a4ba-590298b518d6",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Krapkowicach?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "8eab9ca9-b1b9-40a0-b3c7-64e45d710177",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "087b189b-47f8-44a1-8306-bb4b63719d91",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "c909cf7c-037e-4eec-887b-210940ddb540",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "5ebf4c9d-254e-46f7-b1b8-6872c471f170",
+            "capPropType": 2,
+            "capPropUIName": "Przelotne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "c177e69a-fa80-402e-ade1-209a13a88507",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "4425618c-06ae-460b-91dc-e085608db58b",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "c6fc1374-094d-420b-a2f9-d0fd7e245362",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "6a365343-fd1a-4a6e-984a-e4270fc7554a",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "1af793ad-2863-4990-9e06-43000efc1746",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "97dc0dd5-fcbd-4941-99d0-2e7803294de3",
+            "capPropType": 2,
+            "capPropUIName": "Mgła"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "865e12bb-a9a5-4ced-9fdf-908a04f79352",
+            "capPropType": 2,
+            "capPropUIName": "Silny wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "2ea505a1-596b-4a03-9c56-65aab49ec7df",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "56b2b5af-cc6f-420c-b8c7-f2ba4bb2a176",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "c417a9c5-4824-409e-be02-b297a94f0eff", "cc976911-eede-421a-86c8-36a97052ba27", "b8b6d037-a737-4f3a-8a94-1608c3d98545", "68b76249-33c5-4074-94eb-150efe6cd7d3", "188e64c8-0ab2-4bf9-b7b7-4fcd99575748", "37657de8-156d-43db-b59e-250f920540fc", "4c643a8d-82ba-4254-95e9-5d1f82a1d668", "3d253641-1050-41e4-b907-a36669ba5629", "91cc102b-d937-41c9-990f-8b31a69e934f", "b538518c-c60f-46bb-83ec-a2fe86eac099", "648a8bf3-3f70-458b-aaa1-4a80cae1398d", "efec5dda-ae4d-4ffa-b8c6-9f01c8db714c", "20af0ac5-d14a-479e-8108-190cb8997a92", "9faae0bf-f93b-47da-ad0c-1b8a1fefe7e3", "c1b30900-3ce2-4cde-a4e6-ecd72fee453b" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "6450e8b9-f11f-49f5-b5e5-1502ca89c68e",
+            "capPropType": 8,
+            "capPropUIName": "KĘDZIERZYN-KOŹLE"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "c417a9c5-4824-409e-be02-b297a94f0eff",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura:",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "cc976911-eede-421a-86c8-36a97052ba27",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Kędzierzynie-Koźlu?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "9faae0bf-f93b-47da-ad0c-1b8a1fefe7e3",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "20af0ac5-d14a-479e-8108-190cb8997a92",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "efec5dda-ae4d-4ffa-b8c6-9f01c8db714c",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "648a8bf3-3f70-458b-aaa1-4a80cae1398d",
+            "capPropType": 2,
+            "capPropUIName": "Przelotne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "b538518c-c60f-46bb-83ec-a2fe86eac099",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "91cc102b-d937-41c9-990f-8b31a69e934f",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "3d253641-1050-41e4-b907-a36669ba5629",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "c1b30900-3ce2-4cde-a4e6-ecd72fee453b",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "4c643a8d-82ba-4254-95e9-5d1f82a1d668",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "37657de8-156d-43db-b59e-250f920540fc",
+            "capPropType": 2,
+            "capPropUIName": "Mgła"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "188e64c8-0ab2-4bf9-b7b7-4fcd99575748",
+            "capPropType": 2,
+            "capPropUIName": "Silny wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "68b76249-33c5-4074-94eb-150efe6cd7d3",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "b8b6d037-a737-4f3a-8a94-1608c3d98545",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "cb8d4247-0bd1-4327-9648-4c1b4acecebc", "16e86026-3ae2-4088-be50-28520748d76e", "85cd5f4a-92f0-48db-ac9c-689917879432", "4110986e-7d16-4bc4-946b-ed4440297b14", "f0e3bf13-77ea-40b2-90a5-6946039d29c7", "cb42ea2f-ad6b-4159-affd-40de406b5312", "9d10ecad-5176-4db5-8cf6-1c9fb764536b", "0110bf66-7a82-40d7-bd91-f3fdc615cc31", "af19257b-482f-48be-ab8b-510ab5404b88", "8531699a-5825-4598-9acb-3d3fbef3ecd6", "d7279397-46b2-4d78-bc59-4cbae80fd916", "675ce96c-847d-45e6-a5ef-294c10eee178", "260dbb13-a3f7-472d-ae4e-0b59cf47af44", "b306356e-7268-4f26-94d0-ba3368842ec2", "61ebcd4b-0090-4e05-8e3b-b79c118a89ac" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "0f581f0a-e1ab-4141-b2e3-0f8dd5a876c0",
+            "capPropType": 8,
+            "capPropUIName": "PRUDNIK"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "cb8d4247-0bd1-4327-9648-4c1b4acecebc",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura:",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "16e86026-3ae2-4088-be50-28520748d76e",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Prudniku?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "61ebcd4b-0090-4e05-8e3b-b79c118a89ac",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "b306356e-7268-4f26-94d0-ba3368842ec2",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "260dbb13-a3f7-472d-ae4e-0b59cf47af44",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "675ce96c-847d-45e6-a5ef-294c10eee178",
+            "capPropType": 2,
+            "capPropUIName": "Przelotne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "d7279397-46b2-4d78-bc59-4cbae80fd916",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "8531699a-5825-4598-9acb-3d3fbef3ecd6",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "af19257b-482f-48be-ab8b-510ab5404b88",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "0110bf66-7a82-40d7-bd91-f3fdc615cc31",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "9d10ecad-5176-4db5-8cf6-1c9fb764536b",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "cb42ea2f-ad6b-4159-affd-40de406b5312",
+            "capPropType": 2,
+            "capPropUIName": "Mgła"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "f0e3bf13-77ea-40b2-90a5-6946039d29c7",
+            "capPropType": 2,
+            "capPropUIName": "SIlny wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "4110986e-7d16-4bc4-946b-ed4440297b14",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "85cd5f4a-92f0-48db-ac9c-689917879432",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "df675a2c-ef96-4ada-b6e1-825757ee65fe", "41c55f1b-cf3e-48d5-8dc5-7750757996d4", "ee78989e-b475-468a-8259-01e6df68f8e8", "4a06e82a-749e-422f-a01f-0ab55200df5e", "2c45a2b6-6eec-4335-a441-967a41fc7640", "0531fd7d-21bc-4d80-9945-3e21b5bd1cf1", "0079b4ae-d7f8-43aa-aa2f-8391803536e1", "de7551cc-5de5-4317-b90d-3d84d3aad035", "113c7284-09c8-4560-ad37-e8a869fc3011", "54f0e75c-2a2d-45ef-b766-0bf987fd46e0", "2a2eeaac-cdc7-4937-9f7b-e7f47730caab", "6155c1f0-79ae-4355-8377-c7db5aa99186", "d3e707c6-3ef1-40d1-a0f2-78747dff80c3", "d62886d7-64a7-469a-a610-56ab2fcde1b3", "61a46bea-7814-4fa1-973f-406d5761c233" ],
+            "capPropGroupExpanded": false,
+            "capPropMatchName": "015ce9c4-4357-48f7-bee9-8bab744a9695",
+            "capPropType": 8,
+            "capPropUIName": "GŁUBCZYCE"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "28˚",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "df675a2c-ef96-4ada-b6e1-825757ee65fe",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "Temperatura:",
+            "fontEditValue": [ "Rajdhani-Bold" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 180 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "28˚"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "Wybierz tylko jeden typ pogody!",
+            "capPropMatchName": "41c55f1b-cf3e-48d5-8dc5-7750757996d4",
+            "capPropType": 4,
+            "capPropUIName": "Jaka pogoda w Głubczycach?"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": true,
+            "capPropMatchName": "61a46bea-7814-4fa1-973f-406d5761c233",
+            "capPropType": 2,
+            "capPropUIName": "Słonecznie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "d62886d7-64a7-469a-a610-56ab2fcde1b3",
+            "capPropType": 2,
+            "capPropUIName": "Przejaśnienia"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "d3e707c6-3ef1-40d1-a0f2-78747dff80c3",
+            "capPropType": 2,
+            "capPropUIName": "Zachmurzenie"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "6155c1f0-79ae-4355-8377-c7db5aa99186",
+            "capPropType": 2,
+            "capPropUIName": "Przelotne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "2a2eeaac-cdc7-4937-9f7b-e7f47730caab",
+            "capPropType": 2,
+            "capPropUIName": "Deszcz"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "54f0e75c-2a2d-45ef-b766-0bf987fd46e0",
+            "capPropType": 2,
+            "capPropUIName": "Intensywne opady deszczu"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "113c7284-09c8-4560-ad37-e8a869fc3011",
+            "capPropType": 2,
+            "capPropUIName": "Burza"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "de7551cc-5de5-4317-b90d-3d84d3aad035",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "0079b4ae-d7f8-43aa-aa2f-8391803536e1",
+            "capPropType": 2,
+            "capPropUIName": "Śnieg z deszczem"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "0531fd7d-21bc-4d80-9945-3e21b5bd1cf1",
+            "capPropType": 2,
+            "capPropUIName": "Mgła"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "2c45a2b6-6eec-4335-a441-967a41fc7640",
+            "capPropType": 2,
+            "capPropUIName": "Silny wiatr"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "4a06e82a-749e-422f-a01f-0ab55200df5e",
+            "capPropType": 2,
+            "capPropUIName": "Upał"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": false,
+            "capPropMatchName": "ee78989e-b475-468a-8259-01e6df68f8e8",
+            "capPropType": 2,
+            "capPropUIName": "Mróz"
+          }
+        ]
+      },
+      "colorSpace": {
+        "baseColorProfile": { "colorProfileName": "BT.709 RGB Full" },
+        "baseProfileType": 1
+      },
+      "currenttime": {
+        "scale": 2,
+        "value": 5
+      },
+      "duration": {
+        "scale": 1,
+        "value": 30
+      },
+      "fieldtype": 4,
+      "framerate": { "ticksperframe": 10584000000 },
+      "framesize": {
+        "size": {
+          "x": 1280,
+          "y": 720
+        },
+        "topleft": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "hasFrozenUnstretchableRegions": false,
+      "hasaudio": false,
+      "hasvideo": true,
+      "id": "0f0ec737-0000-0000-0000-000000000000",
+      "initialcontentstate": "a913ba90-6668-1dbb-c7b9-36f14e34c629",
+      "inpoint": {
+        "scale": 1,
+        "value": -400000
+      },
+      "isdropframe": true,
+      "ismedia": false,
+      "isxmpwritable": false,
+      "mediaproducerdescription": "",
+      "name": "DZIEŃ",
+      "nativefieldtype": 4,
+      "outpoint": {
+        "scale": 1,
+        "value": -400000
+      },
+      "parentprojectfile": "C:\\Users\\mpech\\AppData\\Local\\Temp\\aegraphic\\3d0c324d-94a4-40e9-bfe6-6ba749715850\\aemogrtFiles\\",
+      "pixelaspectratio": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "pixelformatlist": [
+        {
+          "fourcc": 1650946657,
+          "properties": 532768
+        },
+        {
+          "fourcc": 1634887522,
+          "properties": 524576
+        }
+      ],
+      "starttime": {
+        "scale": 1,
+        "value": 0
+      },
+      "supportsvideorenderingsessions": true,
+      "teamProjectName": "",
+      "workinpoint": {
+        "scale": 1,
+        "value": 0
+      },
+      "workoutpoint": {
+        "scale": 1,
+        "value": 30
+      }
+    }
+  },
+  "typekitOnlyVersion": "201710",
+  "usedCompRenderers": [ "ADBE Escher" ],
+  "usedEffects": [ "ADBE AIF Perlin Noise 3D", "ADBE Box Blur2", "ADBE Checkbox Control", "ADBE Color Control", "ADBE Color Emboss", "ADBE Drop Shadow", "ADBE Easy Levels2", "ADBE Emboss", "ADBE Fill", "ADBE Geometry2", "ADBE Glo2", "ADBE LIQUIFY", "ADBE Lightning 2", "ADBE Linear Wipe", "ADBE MESH WARP", "ADBE Point Control", "ADBE Posterize Time", "ADBE Roughen Edges", "ADBE Slider Control", "ADBE Solid Composite", "ADBE Turbulent Displace", "ADBE WRPMESH", "ADBE Wave Warp", "CC Cylinder", "CC Particle World", "CC Radial Fast Blur" ],
+  "usedFileTypes": [ ".mp4" ],
+  "usedFontsLocalized": { "en_US": [ "Rajdhani-Bold" ] }
+}

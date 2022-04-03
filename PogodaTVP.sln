@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PogodaTVP", "PogodaTVP\PogodaTVP.csproj", "{5309E021-FBA1-478D-B739-ED2915F81CF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PogodaTVP.UI", "PogodaTVP.Form\PogodaTVP.UI.csproj", "{827696A5-B7EE-41BD-8E51-0A68AADDCD48}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1744710D-538F-4B77-8AED-92FB189658EF} = {1744710D-538F-4B77-8AED-92FB189658EF}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PogodaTVP.Logic", "PogodaTVP.Logic\PogodaTVP.Logic.csproj", "{1744710D-538F-4B77-8AED-92FB189658EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PogodaTVP.Tests", "PogodaTVP.Tests\PogodaTVP.Tests.csproj", "{F1980075-3910-4657-99C4-CFFE51C574F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PogodaTVP.Core", "PogodaTVP.Core\PogodaTVP.Core.csproj", "{82028476-64D0-411D-B513-33E95A9E2149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5309E021-FBA1-478D-B739-ED2915F81CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5309E021-FBA1-478D-B739-ED2915F81CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5309E021-FBA1-478D-B739-ED2915F81CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5309E021-FBA1-478D-B739-ED2915F81CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827696A5-B7EE-41BD-8E51-0A68AADDCD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827696A5-B7EE-41BD-8E51-0A68AADDCD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827696A5-B7EE-41BD-8E51-0A68AADDCD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827696A5-B7EE-41BD-8E51-0A68AADDCD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1744710D-538F-4B77-8AED-92FB189658EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1744710D-538F-4B77-8AED-92FB189658EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1744710D-538F-4B77-8AED-92FB189658EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1744710D-538F-4B77-8AED-92FB189658EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1980075-3910-4657-99C4-CFFE51C574F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1980075-3910-4657-99C4-CFFE51C574F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1980075-3910-4657-99C4-CFFE51C574F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1980075-3910-4657-99C4-CFFE51C574F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82028476-64D0-411D-B513-33E95A9E2149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82028476-64D0-411D-B513-33E95A9E2149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82028476-64D0-411D-B513-33E95A9E2149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82028476-64D0-411D-B513-33E95A9E2149}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64467612-D8D8-455F-86A9-6564EE602B6F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meteomax>
+<meta>
+<author>Cumulus Wojciech Majik, Wrocław</author>
+<customer>test</customer>
+<updateTime>2021-05-10 00:00:00</updateTime>
+<timeZone>UTC</timeZone>
+</meta>
+<dictionaries>
+<units>
+<temperature>celsius</temperature>
+<wind>km/h</wind>
+<pressure>hPa</pressure>
+</units>
+<clouds>
+<cloud>
+<value>0</value>
+<description>bezchmurnie</description>
+</cloud>
+<cloud>
+<value>1</value>
+<description>małe</description>
+</cloud>
+<cloud>
+<value>2</value>
+<description>umiarkowane</description>
+</cloud>
+<cloud>
+<value>3</value>
+<description>duże</description>
+</cloud>
+<cloud>
+<value>4</value>
+<description>pełne</description>
+</cloud>
+</clouds>
+<conditions>
+<condition>
+<value>300</value>
+<description>Bezchmurnie</description>
+</condition>
+<condition>
+<value>301</value>
+<description>Zachmurzenie małe</description>
+</condition>
+<condition>
+<value>302</value>
+<description>Zachmurzenie umiarkowane</description>
+</condition>
+<condition>
+<value>303</value>
+<description>Zachmurzenie duże</description>
+</condition>
+<condition>
+<value>304</value>
+<description>Zachmurzenie pełne</description>
+</condition>
+<condition>
+<value>305</value>
+<description>Zachmurzenie zmienne z opadami deszczu</description>
+</condition>
+<condition>
+<value>306</value>
+<description>Zachmurzenie zmienne z opadami deszczu ze śniegiem</description>
+</condition>
+<condition>
+<value>307</value>
+<description>Zachmurzenie zmienne z opadami śniegu</description>
+</condition>
+<condition>
+<value>308</value>
+<description>Zachmurzenie zmienne z opadami marznącymi (gołoledź)</description>
+</condition>
+<condition>
+<value>309</value>
+<description>Zachmurzenie zmienne z opadami gradu</description>
+</condition>
+<condition>
+<value>310</value>
+<description>Zachmurzenie zmienne z burzą i z opadami deszczu</description>
+</condition>
+<condition>
+<value>311</value>
+<description>Zachmurzenie zmienne z burzą i z opadami śniegu</description>
+</condition>
+<condition>
+<value>312</value>
+<description>Zachmurzenie zmienne  z burzą i z opadami gradu</description>
+</condition>
+<condition>
+<value>313</value>
+<description>Zachmurzenie duże z opadami deszczu</description>
+</condition>
+<condition>
+<value>314</value>
+<description>Zachmurzenie duże z opadami deszczu ze śniegiem</description>
+</condition>
+<condition>
+<value>315</value>
+<description>Zachmurzenie duże z opadami śniegu</description>
+</condition>
+<condition>
+<value>316</value>
+<description>Zachmurzenie duże z opadami marznącymi (gołoledź)</description>
+</condition>
+<condition>
+<value>317</value>
+<description>Zachmurzenie duże z opadami gradu</description>
+</condition>
+<condition>
+<value>318</value>
+<description>Zachmurzenie duże z burzą i z opadami deszczu</description>
+</condition>
+<condition>
+<value>319</value>
+<description>Zachmurzenie duże z burzą i z opadami śniegu</description>
+</condition>
+<condition>
+<value>320</value>
+<description>Zachmurzenie duże z burzą i z opadami gradu</description>
+</condition>
+<condition>
+<value>321</value>
+<description>Zachmurzenie pełne z opadami deszczu</description>
+</condition>
+<condition>
+<value>322</value>
+<description>Zachmurzenie pełne z opadami deszczu ze śniegiem</description>
+</condition>
+<condition>
+<value>323</value>
+<description>Zachmurzenie pełne z opadami śniegu</description>
+</condition>
+<condition>
+<value>324</value>
+<description>Zachmurzenie pełne z opadami marznącymi (gołoledź)</description>
+</condition>
+<condition>
+<value>325</value>
+<description>Zachmurzenie pełne z opadami gradu</description>
+</condition>
+<condition>
+<value>326</value>
+<description>Zachmurzenie pełne z burzą i z opadami deszczu</description>
+</condition>
+<condition>
+<value>327</value>
+<description>Zachmurzenie pełne z burzą i z opadami śniegu</description>
+</condition>
+<condition>
+<value>328</value>
+<description>Zachmurzenie pełne z burzą i z opadami gradu</description>
+</condition>
+</conditions>
+</dictionaries>
+<forecastRecords>
+<city name="Warszawa" region="Mazowieckie" country="Polska" lat="52.23" lon="21.01">
+<day date="2021-05-10">
+<time part="00-01">
+<temp>17</temp>
+<windSpeed>11</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>2</clouds>
+<conditions>302</conditions>
+</time>
+<time part="01-02">
+<temp>17</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="02-03">
+<temp>16</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="03-04">
+<temp>17</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="04-05">
+<temp>18</temp>
+<windSpeed>14</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="05-06">
+<temp>20</temp>
+<windSpeed>14</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="06-07">
+<temp>22</temp>
+<windSpeed>14</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="07-08">
+<temp>24</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="08-09">
+<temp>25</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="09-10">
+<temp>26</temp>
+<windSpeed>18</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="10-11">
+<temp>27</temp>
+<windSpeed>18</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="11-12">
+<temp>27</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="12-13">
+<temp>28</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="13-14">
+<temp>27</temp>
+<windSpeed>18</windSpeed>
+<windGust>22</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="14-15">
+<temp>27</temp>
+<windSpeed>18</windSpeed>
+<windGust>22</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="15-16">
+<temp>27</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="16-17">
+<temp>26</temp>
+<windSpeed>14</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="17-18">
+<temp>24</temp>
+<windSpeed>14</windSpeed>
+<windGust>25</windGust>
+<windDirection>E</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="18-19">
+<temp>23</temp>
+<windSpeed>14</windSpeed>
+<windGust>32</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="19-20">
+<temp>22</temp>
+<windSpeed>14</windSpeed>
+<windGust>32</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="20-21">
+<temp>21</temp>
+<windSpeed>18</windSpeed>
+<windGust>36</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="21-22">
+<temp>20</temp>
+<windSpeed>14</windSpeed>
+<windGust>32</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="22-23">
+<temp>19</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="23-24">
+<temp>19</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<summary/>
+</day>
+<day date="2021-05-11">
+<time part="00-01">
+<temp>18</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="01-02">
+<temp>18</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="02-03">
+<temp>17</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="03-04">
+<temp>17</temp>
+<windSpeed>14</windSpeed>
+<windGust>32</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="04-05">
+<temp>18</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="05-06">
+<temp>19</temp>
+<windSpeed>14</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="06-07">
+<temp>21</temp>
+<windSpeed>14</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="07-08">
+<temp>23</temp>
+<windSpeed>14</windSpeed>
+<windGust>22</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="08-09">
+<temp>25</temp>
+<windSpeed>14</windSpeed>
+<windGust>18</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="09-10">
+<temp>26</temp>
+<windSpeed>14</windSpeed>
+<windGust>18</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="10-11">
+<temp>26</temp>
+<windSpeed>18</windSpeed>
+<windGust>0</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="11-12">
+<temp>26</temp>
+<windSpeed>18</windSpeed>
+<windGust>22</windGust>
+<windDirection>SE</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="12-13">
+<temp>26</temp>
+<windSpeed>18</windSpeed>
+<windGust>22</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="13-14">
+<temp>26</temp>
+<windSpeed>18</windSpeed>
+<windGust>0</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="14-15">
+<temp>25</temp>
+<windSpeed>18</windSpeed>
+<windGust>0</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="15-16">
+<temp>24</temp>
+<windSpeed>18</windSpeed>
+<windGust>0</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="16-17">
+<temp>23</temp>
+<windSpeed>18</windSpeed>
+<windGust>22</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="17-18">
+<temp>21</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="18-19">
+<temp>20</temp>
+<windSpeed>18</windSpeed>
+<windGust>32</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="19-20">
+<temp>19</temp>
+<windSpeed>18</windSpeed>
+<windGust>32</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="20-21">
+<temp>18</temp>
+<windSpeed>14</windSpeed>
+<windGust>32</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="21-22">
+<temp>17</temp>
+<windSpeed>14</windSpeed>
+<windGust>32</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="22-23">
+<temp>16</temp>
+<windSpeed>14</windSpeed>
+<windGust>32</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="23-24">
+<temp>15</temp>
+<windSpeed>14</windSpeed>
+<windGust>32</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<summary/>
+</day>
+<day date="2021-05-12">
+<time part="00-01">
+<temp>15</temp>
+<windSpeed>14</windSpeed>
+<windGust>32</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="01-02">
+<temp>14</temp>
+<windSpeed>14</windSpeed>
+<windGust>32</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="02-03">
+<temp>13</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="03-04">
+<temp>13</temp>
+<windSpeed>14</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="04-05">
+<temp>15</temp>
+<windSpeed>14</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="05-06">
+<temp>16</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="06-07">
+<temp>18</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="07-08">
+<temp>19</temp>
+<windSpeed>18</windSpeed>
+<windGust>29</windGust>
+<windDirection>SE</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="08-09">
+<temp>20</temp>
+<windSpeed>18</windSpeed>
+<windGust>29</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="09-10">
+<temp>21</temp>
+<windSpeed>18</windSpeed>
+<windGust>29</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="10-11">
+<temp>22</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>E</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="11-12">
+<temp>22</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>E</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="12-13">
+<temp>23</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>E</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="13-14">
+<temp>22</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>E</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="14-15">
+<temp>22</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>E</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="15-16">
+<temp>21</temp>
+<windSpeed>18</windSpeed>
+<windGust>25</windGust>
+<windDirection>E</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="16-17">
+<temp>21</temp>
+<windSpeed>18</windSpeed>
+<windGust>29</windGust>
+<windDirection>E</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="17-18">
+<temp>19</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>E</windDirection>
+<clouds>1</clouds>
+<conditions>301</conditions>
+</time>
+<time part="18-19">
+<temp>18</temp>
+<windSpeed>14</windSpeed>
+<windGust>29</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="19-20">
+<temp>17</temp>
+<windSpeed>11</windSpeed>
+<windGust>25</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="20-21">
+<temp>17</temp>
+<windSpeed>11</windSpeed>
+<windGust>22</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="21-22">
+<temp>16</temp>
+<windSpeed>11</windSpeed>
+<windGust>22</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="22-23">
+<temp>15</temp>
+<windSpeed>11</windSpeed>
+<windGust>22</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<time part="23-24">
+<temp>15</temp>
+<windSpeed>11</windSpeed>
+<windGust>22</windGust>
+<windDirection>E</windDirection>
+<clouds>0</clouds>
+<conditions>300</conditions>
+</time>
+<summary/>
+</day>
+</city>
+</forecastRecords>
+</meteomax>
