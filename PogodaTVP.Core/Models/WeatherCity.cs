@@ -14,7 +14,12 @@ namespace PogodaTVP.Core.Models
             set { temperatura = value; } 
         }
 
-        public uint SytuacjaPogodowa { get; set; }
+        public AdobeWeatherSituation SytuacjaPogodowa 
+        {
+            get;
+
+            set; 
+        }
 
       
     }

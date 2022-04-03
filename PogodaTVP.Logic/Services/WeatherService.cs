@@ -33,9 +33,9 @@ namespace PogodaTVP.Logic.Services
             var query = new Query(authorization,QueryData.xml);
             var queryString = _queryService.CreateQueryString(query);
             var request = _weatherRequest.CreateRequestPOST(queryString);
-            var responseResult = _weatherRequest.SendRequest(request, queryString);
+            var response = _weatherRequest.SendRequest(request, queryString);
 
-            FileInfo file = _fileService.CreateFileFromHttpResponse(responseResult);
+            FileInfo file = _fileService.CreateFileFromHttpResponse(response);
             var extractedFile = _fileService.ExtractFile(file);
             Meteomax meteomax = GetWeatherFromXml(extractedFile);
 
@@ -61,15 +61,26 @@ namespace PogodaTVP.Logic.Services
 
         private WeatherCity GetWeatherFromCity(meteomaxCity city, WeatherDay weatherDay, WeatherPart weatherPart)
         {
-            return new WeatherCity()
+            var weatherCity = new WeatherCity()
             {
                 Miasto = city.name,
                 Temperatura = city
                     .day[(int)weatherPart]
                     .time[(int)weatherPart]
                     .temp.ToString(),
-                SytuacjaPogodowa = city.day[(int)weatherDay].time[(int)weatherPart].conditions
             };
+            if (weatherPart == WeatherPart.Noc)
+            {
+                weatherCity.SytuacjaPogodowa = WeatherSituation.MapWeatherSituationToAdobeNight(Enum.Parse<CulumbusWeatherSituation>(city.day[(int)weatherDay].time[(int)weatherPart].conditions.ToString()));
+            }
+            else 
+            {
+                weatherCity.SytuacjaPogodowa = WeatherSituation.MapWeatherSituationToAdobeDay(Enum.Parse<CulumbusWeatherSituation>(city.day[(int)weatherDay].time[(int)weatherPart].conditions.ToString()));
+            }
+            return weatherCity;
+
+
+           
         }
 
         private Meteomax GetWeatherFromXml(FileInfo file)

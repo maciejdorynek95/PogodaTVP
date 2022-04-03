@@ -1,4 +1,5 @@
-﻿using PogodaTVP.Core.Models;
+﻿using PogodaTVP.Core.Enums;
+using PogodaTVP.Core.Models;
 using PogodaTVP.Logic.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -42,7 +43,7 @@ namespace PogodaTVP.Logic.Extensions
                 weather.WeatherPoland.PogodaMiasto.Add(new WeatherCity()
                 {
                     Miasto = Convert.ToString(rw[0]),
-                    SytuacjaPogodowa = Convert.ToUInt16(rw[1]),
+                    //SytuacjaPogodowa = Enum.Parse<CulumbusWeatherSituation>(Convert.ToUInt16(rw[1])),
                     Temperatura = Convert.ToString(rw[2])
                 });          
                 ;

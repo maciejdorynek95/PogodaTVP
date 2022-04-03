@@ -16,6 +16,7 @@ namespace PogodaTVP.UI
         private readonly IConfiguration _configuration;
         private readonly IWeatherService _weatherService;
         private readonly IFileService _fileService;
+       
 
         public ClientPanel(IConfiguration configuration, IWeatherService weatherService, IFileService fileService)
         {
@@ -97,9 +98,10 @@ namespace PogodaTVP.UI
                         box.dateTimePicker1_Data.Value = Convert.ToDateTime(weather.Dzień);
                         box.textBox3_Pressure.Text = weather.hPa;
                         box.textBox2_temp.Text = miasto.Temperatura;
-
                         box.comboBox1_SytuacjaPogodowa.DisplayMember = "Key";
                         box.comboBox1_SytuacjaPogodowa.ValueMember = "Value";
+                        box.comboBox1_SytuacjaPogodowa.DataSource = Enum.GetValues(typeof(AdobeWeatherSituation));
+                        box.comboBox1_SytuacjaPogodowa.SelectedItem = miasto.SytuacjaPogodowa;
                         yield return new WeatherControlModel(box, weatherDay, weatherPart);
                     }
                 }
@@ -108,37 +110,33 @@ namespace PogodaTVP.UI
 
         public async void button_GenerateAdobe_Click(object sender, EventArgs e)
         {
-            string jsonData = null;
-            FileInfo adobeFile = null;
+              
             FileInfo pathToOpolszczyznaNocTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\OPOLSZCZYZNA_NOC\definition.json");
             FileInfo pathToOpolszczyznaDzienTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\definition.json");        
-            DirectoryInfo rootPathWeather = new DirectoryInfo(@"..\..\..\..\PogodaTVP\Data\GeneratedAdobeWeather\");
-            FileInfo outDirectory = null;
-            FileInfo fileName = new FileInfo("definition.json");
+            DirectoryInfo pathToGenerateData = new DirectoryInfo(@"..\..\..\..\PogodaTVP\Data\GeneratedAdobeWeather\");
+            var value = _configuration.GetSection("Premiere").GetSection("PathForMogrtFiles").Value;
 
             if (flowLayoutPanel_OpolszczyznaNoc.Controls.Count > 0)
             {
-                jsonData = File.ReadAllText(pathToOpolszczyznaNocTemplate.FullName);
-                outDirectory = CreateNewDirectoryByState(rootPathWeather, "OPOLSZCZYZNA_NOC", fileName);
-                adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaNoc.Controls);
-
-
-                // await MoveFile(adobeFile, pathToAdobe);
+                var jsonData = File.ReadAllText(pathToOpolszczyznaNocTemplate.FullName);
+                var outDirectory = CreateNewDirectoryByState(pathToGenerateData, "OPOLSZCZYZNA_NOC", pathToOpolszczyznaNocTemplate);
+                var adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaNoc.Controls);
+                // await MoveFile(adobeFile, pathToAdobe); // to PREMIERE!
             }
 
             if (flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Controls.Count > 0)
             {
-                jsonData = File.ReadAllText(pathToOpolszczyznaDzienTemplate.FullName);
-                outDirectory = CreateNewDirectoryByState(rootPathWeather, "OPOLSZCZYZNA_DZIEN", fileName);
-                adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Controls) ;
+                var jsonData = File.ReadAllText(pathToOpolszczyznaDzienTemplate.FullName);
+                var outDirectory = CreateNewDirectoryByState(pathToGenerateData, "OPOLSZCZYZNA_DZIEN", pathToOpolszczyznaDzienTemplate);
+                var adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Controls) ;
                // await MoveFile(adobeFile, pathToAdobe);
             }
 
             if (flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Controls.Count > 0)
             {
-                jsonData = File.ReadAllText(pathToOpolszczyznaDzienTemplate.FullName);
-                outDirectory = CreateNewDirectoryByState(rootPathWeather, "OPOLSZCZYZNA_DZIEN", fileName);
-                adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Controls);
+                var jsonData = File.ReadAllText(pathToOpolszczyznaDzienTemplate.FullName);
+                var outDirectory = CreateNewDirectoryByState(pathToGenerateData, "OPOLSZCZYZNA_DZIEN", pathToOpolszczyznaDzienTemplate);
+                var adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Controls);
               //  await MoveFile(adobeFile, pathToAdobe);
             }
 
@@ -178,10 +176,23 @@ namespace PogodaTVP.UI
 
         private FileInfo GenerateAdobeFile(FileInfo fileJson, string jsonData, Control.ControlCollection controls)
         {
+            List<FileInfo> requiredFiles = new List<FileInfo>()
+            {
+                new FileInfo(@$"..\..\..\..\PogodaTVP\Data\PogodaRejdych\{fileJson.Directory.Name}\project.aegraphic"),
+                new FileInfo(@$"..\..\..\..\PogodaTVP\Data\PogodaRejdych\{fileJson.Directory.Name}\thumb.png")
+
+            };
+
+
             // mapowanie
             var json = MapCitiesToAdobe(jsonData, controls);
             // zapisanie do folderu wysjciowego
             SaveToTargetFolder(json, fileJson);
+            // add Required files
+            foreach (var file in requiredFiles)
+            {
+                file.MoveTo(@$"{fileJson.Directory.FullName}\{file.Name}",true);
+            }
             // zip folderu wyjsciowego
             var zippedFile = _fileService.ZippFile(fileJson); 
             return _fileService.ChangeFileExtensionToMogrt(zippedFile); // adobe czyta .mogrt            

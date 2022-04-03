@@ -49,19 +49,22 @@
     <None Update="Data\PogodaRejdych\Archiwum\definition.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Data\PogodaRejdych\Archiwum\definition.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Data\PogodaRejdych\DNI_TYGODNIA\definition.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\definition.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\definition.xml">
+    <None Update="Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\project.aegraphic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\thumb.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Data\PogodaRejdych\OPOLSZCZYZNA_NOC\definition.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\OPOLSZCZYZNA_NOC\project.aegraphic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\OPOLSZCZYZNA_NOC\thumb.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Pogoda\pogoda.xml">
@@ -70,6 +73,10 @@
     <None Update="Pogoda\ReadMe.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\GeneratedAdobeWeather\" />
   </ItemGroup>
 
 </Project>
