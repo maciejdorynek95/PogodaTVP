@@ -1,0 +1,3155 @@
+{
+  "aelibCompliantVersion": "201710",
+  "apiVersion": "1.8",
+  "authorApp": "aefx",
+  "authorID": "",
+  "capsuleID": "741af14e-08e3-4417-9812-33f963bd84a5",
+  "capsuleName": "OPOLSZCZYZNA_NOC",
+  "capsuleNameLocalized": {
+    "strDB": [
+      {
+        "localeString": "en_US",
+        "str": "OPOLSZCZYZNA_NOC"
+      }
+    ]
+  },
+  "capsuleTags": [],
+  "clientControls": [
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 42
+      },
+      "id": "ae6b6329-8dad-4c0c-ae23-5e24e4e7dddd",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "CISNIENIE"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "996 hPa"
+          }
+        ]
+      }
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 42
+      },
+      "id": "b4e85d8a-9770-4328-a2ae-1b3784168ede",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "DZIEN/NOC"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "NOC"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "12d3aa38-5ac2-49f4-aef5-5b46c5e5d7c7",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BRAK"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "Z POLUDNIA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "Z POLUDNIOWEGO ZACHODU"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "Z ZACHODU"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "Z POLNOCNEGO ZACHODU"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "Z POLNOCY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "Z POLNOCNEGO WSCHODU"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "ZE WSCHODU"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "Z POLUDNIOWEGO WSCHODU"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "WIATR"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 1
+    },
+    {
+      "canAnimate": true,
+      "groupexpanded": true,
+      "id": "3126984e-1995-4db3-ad2c-268f45bfb1a7",
+      "type": 10,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "TEMPERATURY"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": [ "f82c695a-a8cb-456c-953f-d98c9802cece", "90b9c556-e6f3-404e-8571-c1acf5c32fad", "f8a2f725-f1f7-4f9f-9e14-366d0fba6ca8", "9f277315-6cb6-436e-94b6-5b5676e323ba", "1a1df8e8-86c7-4a10-bfba-17eb08161eab", "28a0ae17-599b-4a2b-9dd9-2025c673f4c9", "da2b59e9-5124-4b5d-8043-73846bb0ba74", "29fee204-d47b-4ce9-b95c-4c2e1b02c7da", "e616a8ab-e042-4101-906f-558aa4479594", "acef30a6-f751-4bb4-8779-dc7e66139b5b", "98ce8922-9910-4f9c-b29a-43e8f29217e6", "70b6fc18-8a85-461c-a353-aa44aed6ee2e", "938849de-fa97-48a7-9f28-48d526d495f5", "ea321d27-575d-4cde-9298-1fd57e83dc7e", "3a71c2a9-20e0-40d0-acfe-5b331021db7e", "4de7d70b-fcba-45c4-b04b-af77517efb26", "2816e51b-3ad1-4661-8cfe-0b0177efaf67", "42743616-ff11-4b15-8ce8-5b2e7bb4c22d", "dbfb261e-ce16-4029-bdf0-eccbd82f5b8b", "82b14355-1b83-49b7-b8d2-040dfa8ee9c7", "a5f94726-4a3f-4af3-bfcf-e16f470bd157", "ce688d28-075e-4f36-9222-dcf5229e7ca3" ]
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "a5f94726-4a3f-4af3-bfcf-e16f470bd157",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "NAMYSLOW"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "-6"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "82b14355-1b83-49b7-b8d2-040dfa8ee9c7",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "NAMYSLOW_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 19
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "dbfb261e-ce16-4029-bdf0-eccbd82f5b8b",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "KLUCZBORK"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "-12"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "42743616-ff11-4b15-8ce8-5b2e7bb4c22d",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "KLUCZBORK_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 1
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "2816e51b-3ad1-4661-8cfe-0b0177efaf67",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "OLESNO"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "23"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "4de7d70b-fcba-45c4-b04b-af77517efb26",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "OLESNO_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 2
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "3a71c2a9-20e0-40d0-acfe-5b331021db7e",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "BRZEG"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "-26"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "ea321d27-575d-4cde-9298-1fd57e83dc7e",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "BRZEG_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 3
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "938849de-fa97-48a7-9f28-48d526d495f5",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "OPOLE"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "7"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "70b6fc18-8a85-461c-a353-aa44aed6ee2e",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "OPOLE_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 4
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "98ce8922-9910-4f9c-b29a-43e8f29217e6",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "STRZELCE"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "66"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "acef30a6-f751-4bb4-8779-dc7e66139b5b",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "STRZELCE_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 5
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "e616a8ab-e042-4101-906f-558aa4479594",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "NYSA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "5"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "29fee204-d47b-4ce9-b95c-4c2e1b02c7da",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "NYSA_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 6
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "da2b59e9-5124-4b5d-8043-73846bb0ba74",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "KRAPKOWICE"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "4"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "28a0ae17-599b-4a2b-9dd9-2025c673f4c9",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "KRAPKOWICE_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 7
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "1a1df8e8-86c7-4a10-bfba-17eb08161eab",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "KEDZIERZYN"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "3"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "9f277315-6cb6-436e-94b6-5b5676e323ba",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "KEDZIERZYN_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 10
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "f8a2f725-f1f7-4f9f-9e14-366d0fba6ca8",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "PRUDNIK"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "2"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "90b9c556-e6f3-404e-8571-c1acf5c32fad",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "PRUDNIK_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 8
+    },
+    {
+      "alternateRectInfo": {
+        "compId": -1,
+        "isEnabled": false,
+        "layerId": -1
+      },
+      "canAnimate": true,
+      "fonteditinfo": {
+        "capPropFontEdit": false,
+        "capPropFontFauxStyleEdit": false,
+        "capPropFontSizeEdit": false,
+        "fontEditValue": "Geometric415BlkEU-Normal",
+        "fontFSAllCapsValue": false,
+        "fontFSBoldValue": false,
+        "fontFSItalicValue": false,
+        "fontFSSmallCapsValue": false,
+        "fontSizeEditValue": 33
+      },
+      "id": "ce688d28-075e-4f36-9222-dcf5229e7ca3",
+      "type": 6,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "GLUBCZYCE"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "1"
+          }
+        ]
+      }
+    },
+    {
+      "canAnimate": true,
+      "id": "f82c695a-a8cb-456c-953f-d98c9802cece",
+      "menucontent": [
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SLONCE_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "KSIEZYC_DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "CHMURY_DUZE"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_DESZCZ"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "BURZA_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "DESZCZ_SNIEG"
+            }
+          ]
+        },
+        {
+          "strDB": [
+            {
+              "localeString": "en_US",
+              "str": "MGLA"
+            }
+          ]
+        }
+      ],
+      "type": 13,
+      "uiName": {
+        "strDB": [
+          {
+            "localeString": "en_US",
+            "str": "GLUBCZYCE_POGODA"
+          }
+        ]
+      },
+      "uiSuffix": { "strDB": [] },
+      "uiToolTip": { "strDB": [] },
+      "value": 11
+    }
+  ],
+  "description": "",
+  "internalEffectsOnlyVersion": "0",
+  "licenseID": "",
+  "mobileCompatibilityVersion": "0",
+  "platformSupport": [ "ppro" ],
+  "responsiveDesignVersion": "0",
+  "sourceInfoLocalized": {
+    "en_US": {
+      "alphachanneltype": 1,
+      "alphamattecolorb": 0,
+      "alphamattecolorg": 0,
+      "alphamattecolorr": 0,
+      "anywhereassetrequestinfo": {
+        "mAssetInfo": {
+          "mAssetIdentifier": "",
+          "mProductionIdentifier": "",
+          "mProductionRevision": ""
+        },
+        "mServerConnectInfo": {
+          "mAuthToken": "",
+          "mEARPort": "",
+          "mUserName": ""
+        }
+      },
+      "anywhereproductionrequestinfo": {
+        "mProductionInfo": {
+          "mDisplayName": "",
+          "mProductionIdentifier": "",
+          "mRevision": ""
+        },
+        "mServerConnectInfo": {
+          "mAuthToken": "",
+          "mEARPort": "",
+          "mUserName": ""
+        }
+      },
+      "appspecificsourceinfo": "{\"applicationID\":\"AfterEffects\",\"artisanQuality\":0,\"capsuleparamvalues\":{\"capParamValues\":[]},\"downSampleX\":1,\"downSampleY\":1,\"enableMenaIndic\":false,\"fieldType\":4,\"flatArtisanOptions\":[0,0,0,1,0,0,0,0,0,0,0,0],\"needsToPatchSourceForDownsample\":false,\"renderguidelayers\":false,\"stretchFactor\":1,\"stretchOffset\":0,\"useAELib\":false,\"version\":10}",
+      "audiochannellayout": [
+        { "channellabel": 100 },
+        { "channellabel": 101 }
+      ],
+      "audiosamplerate": { "ticksperframe": 5292000 },
+      "capsuleparams": {
+        "capParams": [
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "996 hPa",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "ae6b6329-8dad-4c0c-ae23-5e24e4e7dddd",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "CISNIENIE",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 42 ],
+            "fontTextRunLength": [ 7 ],
+            "textEditValue": "cd57a8cf-cc2b-42e3-b344-fb5bb30d0485"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "NOC",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "b4e85d8a-9770-4328-a2ae-1b3784168ede",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "DZIEN/NOC",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 42 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "NOC"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 1,
+            "capPropMatchName": "12d3aa38-5ac2-49f4-aef5-5b46c5e5d7c7",
+            "capPropType": 10,
+            "capPropUIName": "WIATR",
+            "menuContent": [ "BRAK", "Z POLUDNIA", "Z POLUDNIOWEGO ZACHODU", "Z ZACHODU", "Z POLNOCNEGO ZACHODU", "Z POLNOCY", "Z POLNOCNEGO WSCHODU", "ZE WSCHODU", "Z POLUDNIOWEGO WSCHODU" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": [ "f82c695a-a8cb-456c-953f-d98c9802cece", "90b9c556-e6f3-404e-8571-c1acf5c32fad", "f8a2f725-f1f7-4f9f-9e14-366d0fba6ca8", "9f277315-6cb6-436e-94b6-5b5676e323ba", "1a1df8e8-86c7-4a10-bfba-17eb08161eab", "28a0ae17-599b-4a2b-9dd9-2025c673f4c9", "da2b59e9-5124-4b5d-8043-73846bb0ba74", "29fee204-d47b-4ce9-b95c-4c2e1b02c7da", "e616a8ab-e042-4101-906f-558aa4479594", "acef30a6-f751-4bb4-8779-dc7e66139b5b", "98ce8922-9910-4f9c-b29a-43e8f29217e6", "70b6fc18-8a85-461c-a353-aa44aed6ee2e", "938849de-fa97-48a7-9f28-48d526d495f5", "ea321d27-575d-4cde-9298-1fd57e83dc7e", "3a71c2a9-20e0-40d0-acfe-5b331021db7e", "4de7d70b-fcba-45c4-b04b-af77517efb26", "2816e51b-3ad1-4661-8cfe-0b0177efaf67", "42743616-ff11-4b15-8ce8-5b2e7bb4c22d", "dbfb261e-ce16-4029-bdf0-eccbd82f5b8b", "82b14355-1b83-49b7-b8d2-040dfa8ee9c7", "a5f94726-4a3f-4af3-bfcf-e16f470bd157", "ce688d28-075e-4f36-9222-dcf5229e7ca3" ],
+            "capPropGroupExpanded": true,
+            "capPropMatchName": "3126984e-1995-4db3-ad2c-268f45bfb1a7",
+            "capPropType": 8,
+            "capPropUIName": "TEMPERATURY"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "-6",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "a5f94726-4a3f-4af3-bfcf-e16f470bd157",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "NAMYSLOW",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 2 ],
+            "textEditValue": "5"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 19,
+            "capPropMatchName": "82b14355-1b83-49b7-b8d2-040dfa8ee9c7",
+            "capPropType": 10,
+            "capPropUIName": "NAMYSLOW_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "-12",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "dbfb261e-ce16-4029-bdf0-eccbd82f5b8b",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "KLUCZBORK",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "7"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 1,
+            "capPropMatchName": "42743616-ff11-4b15-8ce8-5b2e7bb4c22d",
+            "capPropType": 10,
+            "capPropUIName": "KLUCZBORK_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "23",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "2816e51b-3ad1-4661-8cfe-0b0177efaf67",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "OLESNO",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 2 ],
+            "textEditValue": "7"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 2,
+            "capPropMatchName": "4de7d70b-fcba-45c4-b04b-af77517efb26",
+            "capPropType": 10,
+            "capPropUIName": "OLESNO_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "-26",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "3a71c2a9-20e0-40d0-acfe-5b331021db7e",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "BRZEG",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 3 ],
+            "textEditValue": "8"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 3,
+            "capPropMatchName": "ea321d27-575d-4cde-9298-1fd57e83dc7e",
+            "capPropType": 10,
+            "capPropUIName": "BRZEG_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "7",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "938849de-fa97-48a7-9f28-48d526d495f5",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "OPOLE",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 1 ],
+            "textEditValue": "7"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 4,
+            "capPropMatchName": "70b6fc18-8a85-461c-a353-aa44aed6ee2e",
+            "capPropType": 10,
+            "capPropUIName": "OPOLE_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "66",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "98ce8922-9910-4f9c-b29a-43e8f29217e6",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "STRZELCE",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 2 ],
+            "textEditValue": "8"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 5,
+            "capPropMatchName": "acef30a6-f751-4bb4-8779-dc7e66139b5b",
+            "capPropType": 10,
+            "capPropUIName": "STRZELCE_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "5",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "e616a8ab-e042-4101-906f-558aa4479594",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "NYSA",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 1 ],
+            "textEditValue": "8"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 6,
+            "capPropMatchName": "29fee204-d47b-4ce9-b95c-4c2e1b02c7da",
+            "capPropType": 10,
+            "capPropUIName": "NYSA_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "4",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "da2b59e9-5124-4b5d-8043-73846bb0ba74",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "KRAPKOWICE",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 1 ],
+            "textEditValue": "8"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 7,
+            "capPropMatchName": "28a0ae17-599b-4a2b-9dd9-2025c673f4c9",
+            "capPropType": 10,
+            "capPropUIName": "KRAPKOWICE_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "3",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "1a1df8e8-86c7-4a10-bfba-17eb08161eab",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "KEDZIERZYN",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 1 ],
+            "textEditValue": "9"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 10,
+            "capPropMatchName": "9f277315-6cb6-436e-94b6-5b5676e323ba",
+            "capPropType": 10,
+            "capPropUIName": "KEDZIERZYN_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "2",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "f8a2f725-f1f7-4f9f-9e14-366d0fba6ca8",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "PRUDNIK",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 1 ],
+            "textEditValue": "7"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 8,
+            "capPropMatchName": "90b9c556-e6f3-404e-8571-c1acf5c32fad",
+            "capPropType": 10,
+            "capPropUIName": "PRUDNIK_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": "1",
+            "capPropFontEdit": false,
+            "capPropFontFauxStyleEdit": false,
+            "capPropFontSizeEdit": false,
+            "capPropMatchName": "ce688d28-075e-4f36-9222-dcf5229e7ca3",
+            "capPropTextRunCount": 1,
+            "capPropType": 0,
+            "capPropUIName": "GLUBCZYCE",
+            "fontEditValue": [ "Geometric415BlkEU-Normal" ],
+            "fontFSAllCapsValue": [ false ],
+            "fontFSBoldValue": [ false ],
+            "fontFSItalicValue": [ false ],
+            "fontFSSmallCapsValue": [ false ],
+            "fontSizeEditValue": [ 33 ],
+            "fontTextRunLength": [ 1 ],
+            "textEditValue": "8"
+          },
+          {
+            "capPropAnimatable": false,
+            "capPropDefault": 11,
+            "capPropMatchName": "f82c695a-a8cb-456c-953f-d98c9802cece",
+            "capPropType": 10,
+            "capPropUIName": "GLUBCZYCE_POGODA",
+            "menuContent": [ "SLONCE", "SLONCE_CHMURY", "SLONCE_CHMURY_DUZE", "SLONCE_DESZCZ", "SLONCE_SNIEG", "SLONCE_DESZCZ_SNIEG", "KSIEZYC", "KSIEZYC_CHMURY", "KSIEZYC_CHMURY_DUZE", "KSIEZYC_DESZCZ", "KSIEZYC_SNIEG", "KSIEZYC_DESZCZ_SNIEG", "CHMURY", "CHMURY_DUZE", "DESZCZ", "SNIEG", "BURZA", "BURZA_DESZCZ", "BURZA_SNIEG", "DESZCZ_SNIEG", "MGLA" ]
+          }
+        ]
+      },
+      "colorSpace": {
+        "baseColorProfile": { "colorProfileName": "BT.709 RGB Full" },
+        "baseProfileType": 1
+      },
+      "currenttime": {
+        "scale": 5,
+        "value": 24
+      },
+      "duration": {
+        "scale": 25,
+        "value": 726
+      },
+      "fieldtype": 4,
+      "framerate": { "ticksperframe": 10160640000 },
+      "framesize": {
+        "size": {
+          "x": 1920,
+          "y": 1080
+        },
+        "topleft": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "hasFrozenUnstretchableRegions": false,
+      "hasaudio": false,
+      "hasvideo": true,
+      "id": "00000002-0000-0000-0000-000000000000",
+      "initialcontentstate": "d1bdd8cb-a959-3a19-6369-2339d833126d",
+      "inpoint": {
+        "scale": 1,
+        "value": -400000
+      },
+      "isdropframe": true,
+      "ismedia": false,
+      "isxmpwritable": false,
+      "mediaproducerdescription": "",
+      "name": "ANIMACJA_OPOLSZCZYZNA",
+      "nativefieldtype": 4,
+      "outpoint": {
+        "scale": 1,
+        "value": -400000
+      },
+      "parentprojectfile": "C:\\Users\\rejdy\\AppData\\Local\\Temp\\aegraphic\\1cdfcb08-bad1-459d-b383-610ce82c4e88\\aemogrtFiles\\",
+      "pixelaspectratio": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "pixelformatlist": [
+        {
+          "fourcc": 1650946657,
+          "properties": 532768
+        },
+        {
+          "fourcc": 1634887522,
+          "properties": 524576
+        }
+      ],
+      "starttime": {
+        "scale": 1,
+        "value": 0
+      },
+      "supportsvideorenderingsessions": true,
+      "teamProjectName": "",
+      "workinpoint": {
+        "scale": 1,
+        "value": 0
+      },
+      "workoutpoint": {
+        "scale": 25,
+        "value": 726
+      }
+    }
+  },
+  "typekitOnlyVersion": "201710",
+  "usedCompRenderers": [ "ADBE Escher" ],
+  "usedEffects": [ "ADBE Change To Color", "ADBE Drop Shadow", "ADBE FreePin3" ],
+  "usedFileTypes": [ ".mp4", ".png" ],
+  "usedFontsLocalized": { "en_US": [ "Geometric415BlkEU-Normal" ] }
+}

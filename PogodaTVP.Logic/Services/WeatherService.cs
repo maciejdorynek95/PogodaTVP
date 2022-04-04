@@ -28,6 +28,11 @@ namespace PogodaTVP.Logic.Services
         }
         public virtual WeatherRegion GetWeather(WeatherDay weatherDay, WeatherPart weatherPart)
         {
+            Meteomax meteomax = null;
+            try
+            {
+
+            
             var authorization = _authorizationService.CreateAuthorizationToken();
             _logger.LogInformation(authorization.ApiKey1 + " " + authorization.ApiKey2);
             var query = new Query(authorization,QueryData.xml);
@@ -37,7 +42,16 @@ namespace PogodaTVP.Logic.Services
 
             FileInfo file = _fileService.CreateFileFromHttpResponse(response);
             var extractedFile = _fileService.ExtractFile(file);
-            Meteomax meteomax = GetWeatherFromXml(extractedFile);
+            meteomax = GetWeatherFromXml(extractedFile);
+            }
+            catch (Exception)
+            {
+            meteomax = GetWeatherFromXml(new FileInfo(@"..\..\..\..\PogodaTVP\Data\Cumulus\file.xml"));
+
+            }
+
+
+            
 
             var selectedCityWeatherGroup = new List<WeatherCity>();
 
