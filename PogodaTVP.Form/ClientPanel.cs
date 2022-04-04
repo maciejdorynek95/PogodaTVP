@@ -191,7 +191,7 @@ namespace PogodaTVP.UI
             // add Required files
             foreach (var file in requiredFiles)
             {
-                file.MoveTo(@$"{fileJson.Directory.FullName}\{file.Name}",true);
+                file.CopyTo(@$"{fileJson.Directory.FullName}\{file.Name}",true);
             }
             // zip folderu wyjsciowego
             var zippedFile = _fileService.ZippFile(fileJson); 
