@@ -1,14 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using PogodaTVP.Core.Models;
-using PogodaTVP.Core.Models.Rejdych.Opolszczyzna;
 using PogodaTVP.Logic.Extensions;
-using PogodaTVP.Logic.Helpers;
 using PogodaTVP.Logic.Interfaces;
 using PogodaTVP.Logic.Services;
 using System.IO;
-using System.Text.Json;
 
 namespace PogodaTVP
 {
@@ -30,13 +26,13 @@ namespace PogodaTVP
           
             var weather = new WeatherRequest();
 
-            var Test = new TestClass(weather);
-            Test.weatherAdapterTest();
+            //var Test = new TestClass(weather);
+            //Test.weatherAdapterTest();
 
 
 
 
-            //var xmlString = string.Empty;
+            ////var xmlString = string.Empty;
             //using (StreamReader re = new StreamReader(xmlFilePath))
             //{
             //    xmlString = re.ReadToEnd();
@@ -92,18 +88,18 @@ namespace PogodaTVP
         }
 
 
-        private static root MergeData(root root, WeatherRegion pogoda)
-        {
+        //private static root MergeData(root root, WeatherRegion pogoda)
+        //{
 
 
-            root.clientControls[0].value[0].strDB.str = "Wersja dzień";
-            root.clientControls[1].value[0].strDB.str = "DZIŚ";
-            //root.clientControls[2].value[0].strDB.str = pogoda;
+        //    root.clientControls[0].value[0].strDB.str = "Wersja dzień";
+        //    root.clientControls[1].value[0].strDB.str = "DZIŚ";
+        //    root.clientControls[2].value[0].strDB.str = pogoda;
 
 
 
-            return null;
-        }
+        //    return null;
+        //}
 
 
 

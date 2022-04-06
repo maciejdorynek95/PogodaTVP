@@ -2795,7 +2795,7 @@
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 19,
+            "capPropDefault": 9eeca3d1-5468-4469-923e-d4f2a30660b2,
             "capPropMatchName": "82b14355-1b83-49b7-b8d2-040dfa8ee9c7",
             "capPropType": 10,
             "capPropUIName": "NAMYSLOW_POGODA",
@@ -2818,11 +2818,11 @@
             "fontFSSmallCapsValue": [ false ],
             "fontSizeEditValue": [ 33 ],
             "fontTextRunLength": [ 3 ],
-            "textEditValue": "7"
+            "textEditValue": "73c9dcda-d8af-439c-b23d-a2d8188fbf28"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 1,
+            "capPropDefault": b9a8d3d6-aedc-4c30-96e5-9024066fdd20,
             "capPropMatchName": "42743616-ff11-4b15-8ce8-5b2e7bb4c22d",
             "capPropType": 10,
             "capPropUIName": "KLUCZBORK_POGODA",
@@ -2845,11 +2845,11 @@
             "fontFSSmallCapsValue": [ false ],
             "fontSizeEditValue": [ 33 ],
             "fontTextRunLength": [ 2 ],
-            "textEditValue": "7"
+            "textEditValue": "b5ea6d6f-1435-4de7-95a3-0d150d0ee518"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 2,
+            "capPropDefault": 144808d5-7d4b-44a1-a33a-4145da1caea8,
             "capPropMatchName": "4de7d70b-fcba-45c4-b04b-af77517efb26",
             "capPropType": 10,
             "capPropUIName": "OLESNO_POGODA",
@@ -2872,11 +2872,11 @@
             "fontFSSmallCapsValue": [ false ],
             "fontSizeEditValue": [ 33 ],
             "fontTextRunLength": [ 3 ],
-            "textEditValue": "8"
+            "textEditValue": "16300f80-af26-48aa-87df-5d022360c2fc"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 3,
+            "capPropDefault": 1c0c8a24-d0ff-42c7-804a-4928d60aca2c,
             "capPropMatchName": "ea321d27-575d-4cde-9298-1fd57e83dc7e",
             "capPropType": 10,
             "capPropUIName": "BRZEG_POGODA",
@@ -2899,11 +2899,11 @@
             "fontFSSmallCapsValue": [ false ],
             "fontSizeEditValue": [ 33 ],
             "fontTextRunLength": [ 1 ],
-            "textEditValue": "7"
+            "textEditValue": "82eddb7c-47fa-4379-9b18-ed50e2a8112f"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 4,
+            "capPropDefault": a9b91b54-100c-4da5-8b10-3360f99bfa37,
             "capPropMatchName": "70b6fc18-8a85-461c-a353-aa44aed6ee2e",
             "capPropType": 10,
             "capPropUIName": "OPOLE_POGODA",
@@ -2926,11 +2926,11 @@
             "fontFSSmallCapsValue": [ false ],
             "fontSizeEditValue": [ 33 ],
             "fontTextRunLength": [ 2 ],
-            "textEditValue": "8"
+            "textEditValue": "7de5b7e5-f87d-40e2-bdc3-79962c4f4c0b"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 5,
+            "capPropDefault": cb6bb0b7-08c0-44ea-9b0d-c06438bdbec2,
             "capPropMatchName": "acef30a6-f751-4bb4-8779-dc7e66139b5b",
             "capPropType": 10,
             "capPropUIName": "STRZELCE_POGODA",
@@ -2953,11 +2953,11 @@
             "fontFSSmallCapsValue": [ false ],
             "fontSizeEditValue": [ 33 ],
             "fontTextRunLength": [ 1 ],
-            "textEditValue": "8"
+            "textEditValue": "fc478039-f0cf-4ff2-977c-df63f55f2f8d"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 6,
+            "capPropDefault": f71dea99-a0c7-47a3-8106-c57ba2b4fb4d,
             "capPropMatchName": "29fee204-d47b-4ce9-b95c-4c2e1b02c7da",
             "capPropType": 10,
             "capPropUIName": "NYSA_POGODA",
@@ -2980,11 +2980,11 @@
             "fontFSSmallCapsValue": [ false ],
             "fontSizeEditValue": [ 33 ],
             "fontTextRunLength": [ 1 ],
-            "textEditValue": "8"
+            "textEditValue": "2733d7aa-f5eb-4aaf-9304-32445346714d"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 7,
+            "capPropDefault": c74d56ac-dab8-4e63-a51f-cb59a39c04a7,
             "capPropMatchName": "28a0ae17-599b-4a2b-9dd9-2025c673f4c9",
             "capPropType": 10,
             "capPropUIName": "KRAPKOWICE_POGODA",
@@ -3007,11 +3007,11 @@
             "fontFSSmallCapsValue": [ false ],
             "fontSizeEditValue": [ 33 ],
             "fontTextRunLength": [ 1 ],
-            "textEditValue": "9"
+            "textEditValue": "0977a584-7974-48ef-842b-8d1cdb5b3a79"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 10,
+            "capPropDefault": 4679cf30-402c-4f9c-9de2-0989f9dc7cee,
             "capPropMatchName": "9f277315-6cb6-436e-94b6-5b5676e323ba",
             "capPropType": 10,
             "capPropUIName": "KEDZIERZYN_POGODA",
@@ -3034,11 +3034,11 @@
             "fontFSSmallCapsValue": [ false ],
             "fontSizeEditValue": [ 33 ],
             "fontTextRunLength": [ 1 ],
-            "textEditValue": "7"
+            "textEditValue": "f6ab2e23-5c4d-475b-94c0-f555dcd601f4"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 8,
+            "capPropDefault": d38c03e4-3eb4-4eee-b7d6-b0626412cd65,
             "capPropMatchName": "90b9c556-e6f3-404e-8571-c1acf5c32fad",
             "capPropType": 10,
             "capPropUIName": "PRUDNIK_POGODA",
@@ -3061,11 +3061,11 @@
             "fontFSSmallCapsValue": [ false ],
             "fontSizeEditValue": [ 33 ],
             "fontTextRunLength": [ 1 ],
-            "textEditValue": "8"
+            "textEditValue": "b44f58ef-f741-4e15-8c63-377255196f84"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 11,
+            "capPropDefault": cd44ca71-a6bb-4a98-af06-1ce2989260af,
             "capPropMatchName": "f82c695a-a8cb-456c-953f-d98c9802cece",
             "capPropType": 10,
             "capPropUIName": "GLUBCZYCE_POGODA",

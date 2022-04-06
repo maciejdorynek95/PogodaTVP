@@ -114,14 +114,14 @@ namespace PogodaTVP.UI
             FileInfo pathToOpolszczyznaNocTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\OPOLSZCZYZNA_NOC\definition.json");
             FileInfo pathToOpolszczyznaDzienTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\definition.json");        
             DirectoryInfo pathToGenerateData = new DirectoryInfo(@"..\..\..\..\PogodaTVP\Data\GeneratedAdobeWeather\");
-            var value = _configuration.GetSection("Premiere").GetSection("PathForMogrtFiles").Value;
+            var pathToExport = new DirectoryInfo(@_configuration.GetSection("Premiere").GetSection("PathForMogrtFiles").Value);
 
             if (flowLayoutPanel_OpolszczyznaNoc.Controls.Count > 0)
             {
                 var jsonData = File.ReadAllText(pathToOpolszczyznaNocTemplate.FullName);
                 var outDirectory = CreateNewDirectoryByState(pathToGenerateData, "OPOLSZCZYZNA_NOC", pathToOpolszczyznaNocTemplate);
                 var adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaNoc.Controls);
-                // await MoveFile(adobeFile, pathToAdobe); // to PREMIERE!
+                MoveFile(adobeFile, pathToExport);
             }
 
             if (flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Controls.Count > 0)
@@ -129,7 +129,7 @@ namespace PogodaTVP.UI
                 var jsonData = File.ReadAllText(pathToOpolszczyznaDzienTemplate.FullName);
                 var outDirectory = CreateNewDirectoryByState(pathToGenerateData, "OPOLSZCZYZNA_DZIEN", pathToOpolszczyznaDzienTemplate);
                 var adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Controls) ;
-               // await MoveFile(adobeFile, pathToAdobe);
+                MoveFile(adobeFile, pathToExport);
             }
 
             if (flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Controls.Count > 0)
@@ -137,7 +137,7 @@ namespace PogodaTVP.UI
                 var jsonData = File.ReadAllText(pathToOpolszczyznaDzienTemplate.FullName);
                 var outDirectory = CreateNewDirectoryByState(pathToGenerateData, "OPOLSZCZYZNA_DZIEN", pathToOpolszczyznaDzienTemplate);
                 var adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Controls);
-              //  await MoveFile(adobeFile, pathToAdobe);
+                 MoveFile(adobeFile, pathToExport);
             }
 
            
@@ -148,10 +148,20 @@ namespace PogodaTVP.UI
             return new FileInfo($@"{oldDirectory.FullName}\{state}\{fileName.Name}");
         }
 
-        private async Task<FileInfo> MoveFile(FileInfo fileToMove,DirectoryInfo pathToMove)
+        private bool MoveFile(FileInfo fileToMove,DirectoryInfo pathToMove)
         {
-            fileToMove.MoveTo(pathToMove.FullName,true);
-            return await Task.FromResult(new FileInfo(@$"{pathToMove.FullName}\{fileToMove.Name}" ));
+            try
+            {
+                fileToMove.MoveTo(pathToMove.FullName, true);
+                return true;
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Nie udalo się przenieść pliku do: " + pathToMove.FullName);
+                return false;
+            }
+           
         }
 
         private bool SaveToTargetFolder(string json,FileInfo targetFile)
@@ -248,6 +258,52 @@ namespace PogodaTVP.UI
 
         }
 
+        public string ReplaceGuidsToWeatherInAdobeJsonFile(string jsonString, string miasto, AdobeWeatherSituation adobeWeatherSituation)
+        {
+
+            switch (miasto) // all guids are implemented in template
+            {
+                case "NAMYSLOW":
+                    return jsonString.Replace("9eeca3d1-5468-4469-923e-d4f2a30660b2 ", ((int)adobeWeatherSituation).ToString());
+
+                case "KLUCZBORK":
+                    return jsonString.Replace("b9a8d3d6-aedc-4c30-96e5-9024066fdd20", ((int)adobeWeatherSituation).ToString());
+
+                case "OLESNO":
+                    return jsonString.Replace("144808d5-7d4b-44a1-a33a-4145da1caea8", ((int)adobeWeatherSituation).ToString());
+
+                case "BRZEG":                                                   
+                    return jsonString.Replace("1c0c8a24-d0ff-42c7-804a-4928d60aca2c", ((int)adobeWeatherSituation).ToString());
+
+                case "OPOLE":                                                        
+                    return jsonString.Replace("a9b91b54-100c-4da5-8b10-3360f99bfa37", ((int)adobeWeatherSituation).ToString());
+
+                case "STRZELCE":                                                  
+                    return jsonString.Replace("cb6bb0b7-08c0-44ea-9b0d-c06438bdbec2", ((int)adobeWeatherSituation).ToString());
+
+                case "NYSA":                                                         
+                    return jsonString.Replace("f71dea99-a0c7-47a3-8106-c57ba2b4fb4d", ((int)adobeWeatherSituation).ToString());
+
+                case "KRAPKOWICE":                                                
+                    return jsonString.Replace("c74d56ac-dab8-4e63-a51f-cb59a39c04a7", ((int)adobeWeatherSituation).ToString());
+
+                case "KEDZIERZYN":                                                   
+                    return jsonString.Replace("4679cf30-402c-4f9c-9de2-0989f9dc7cee", ((int)adobeWeatherSituation).ToString());
+
+                case "PRUDNIK":                                                   
+                    return jsonString.Replace("d38c03e4-3eb4-4eee-b7d6-b0626412cd65", ((int)adobeWeatherSituation).ToString());
+
+                case "GLUBCZYCE":                                                  
+                    return jsonString.Replace("cd44ca71-a6bb-4a98-af06-1ce2989260af", ((int)adobeWeatherSituation).ToString());
+
+                default:
+                    return jsonString;
+            }
+
+
+
+        }
+
 
         private string MapCitiesToAdobe(string jsonData, Control.ControlCollection controls)
         {
@@ -276,7 +332,7 @@ namespace PogodaTVP.UI
                 }
 
                 jsonData = ReplaceGuidsToTemperatureInAdobeJsonFile(jsonData, miasto, Convert.ToInt16(control.textBox2_temp.Text));
-            
+                jsonData = ReplaceGuidsToWeatherInAdobeJsonFile(jsonData,miasto, Enum.Parse(typeof(AdobeWeatherSituation),control.comboBox1_SytuacjaPogodowa.Text));
             }
             return jsonData;
         }
