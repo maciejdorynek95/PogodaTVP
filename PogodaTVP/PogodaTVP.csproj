@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\GeneratedAdobeWeather\PoPoludniu.mogrt\**" />
+    <EmbeddedResource Remove="Data\GeneratedAdobeWeather\PoPoludniu.mogrt\**" />
+    <None Remove="Data\GeneratedAdobeWeather\PoPoludniu.mogrt\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Data\htmlPogoda.html" />
   </ItemGroup>
 
@@ -62,12 +68,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Data\PogodaRejdych\OPOLSZCZYZNA_NOC\thumb.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Pogoda\pogoda.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Pogoda\ReadMe.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

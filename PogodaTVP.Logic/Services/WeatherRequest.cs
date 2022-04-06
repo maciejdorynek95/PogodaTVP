@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using PogodaTVP.Logic.Interfaces;
 using System;
 using System.IO;
@@ -10,6 +11,13 @@ namespace PogodaTVP.Logic.Services
     public class WeatherRequest : IWeatherRequest
     {
         private readonly ILogger<WeatherRequest> _logger;
+        private readonly IConfiguration _configuration;
+
+        public WeatherRequest(IConfiguration configuration, ILogger<WeatherRequest> logger)
+        {
+            _configuration = configuration;
+            _logger = logger;
+        }
 
         public HttpWebRequest CreateRequestPOST(string queryString)
         {
@@ -22,9 +30,11 @@ namespace PogodaTVP.Logic.Services
 
             try
             {
-                Uri uri = new Uri("http://meteomax.pl/index.php?option=com_weatherservice");
+                
+                Uri uri = new Uri(_configuration.GetSection("CulumbusUriString").Value);
                 request = (HttpWebRequest)WebRequest.Create(uri);
                 request.Method = "POST";
+
                 request.ContentType = "application/x-www-form-urlencoded";
                 UTF8Encoding encoding = new UTF8Encoding();
                 request.ContentLength = encoding.GetBytes(queryString).Length;

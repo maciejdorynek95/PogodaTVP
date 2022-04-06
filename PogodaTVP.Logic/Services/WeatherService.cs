@@ -26,35 +26,34 @@ namespace PogodaTVP.Logic.Services
             _authorizationService = authorizationService;
             _fileService = fileService;
         }
-        public virtual WeatherRegion GetWeather(WeatherDay weatherDay, WeatherPart weatherPart)
+   
+        public FileInfo GetWeatherFileFromMeteoService()
         {
-            Meteomax meteomax = null;
+    
             try
             {
 
             
             var authorization = _authorizationService.CreateAuthorizationToken();
-            _logger.LogInformation(authorization.ApiKey1 + " " + authorization.ApiKey2);
             var query = new Query(authorization,QueryData.xml);
             var queryString = _queryService.CreateQueryString(query);
             var request = _weatherRequest.CreateRequestPOST(queryString);
             var response = _weatherRequest.SendRequest(request, queryString);
 
-            FileInfo file = _fileService.CreateFileFromHttpResponse(response);
-            var extractedFile = _fileService.ExtractFile(file);
-            meteomax = GetWeatherFromXml(extractedFile);
+            var file = _fileService.CreateFileFromHttpResponse(response);
+            return _fileService.ExtractFile(file);            
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-            meteomax = GetWeatherFromXml(new FileInfo(@"..\..\..\..\PogodaTVP\Data\Cumulus\file.xml"));
-
+                _logger.LogError("Błąd podczas pobierania pliku pogody z serwisu Meteo" + ex.Message + "|" + ex.InnerException);
+                throw;
             }
+        }
 
-
-            
-
+        public WeatherRegion GetWeatherRegion(Meteomax meteomax, WeatherDay weatherDay, WeatherPart weatherPart)
+        {
+      
             var selectedCityWeatherGroup = new List<WeatherCity>();
-
             var cities = meteomax.forecastRecords;
 
             foreach (var city in cities)
@@ -69,9 +68,9 @@ namespace PogodaTVP.Logic.Services
                 hPa = cities[1].day[(int)weatherDay].time[(int)weatherPart].pressureSLP.ToString(), // hpa dla opola
                 PogodaMiasto = selectedCityWeatherGroup
             };
-
-
         }
+
+   
 
         private WeatherCity GetWeatherFromCity(meteomaxCity city, WeatherDay weatherDay, WeatherPart weatherPart)
         {
@@ -97,12 +96,12 @@ namespace PogodaTVP.Logic.Services
            
         }
 
-        private Meteomax GetWeatherFromXml(FileInfo file)
+        public Meteomax GetWeatherFromXml(FileInfo file)
         {
             Meteomax weather;
             var xml = new XmlDocument();
                 xml.Load(file.FullName);
-            xml.RemoveChild(xml.FirstChild);
+                xml.RemoveChild(xml.FirstChild);
             var meteomax = FSLib_XmlSerializeExtension.XmlDeserialize<Meteomax>(xml.OuterXml);
             return meteomax;
 

@@ -4,12 +4,12 @@
   "authorApp": "aefx",
   "authorID": "",
   "capsuleID": "4ffb0dd7-bb59-464c-a805-9c08ea299fa0",
-  "capsuleName": "OPOLSZCZYZNA_DZIEN",
+  "capsuleName": "eea862b9-04a2-4428-8419-270ae6b27dbe",
   "capsuleNameLocalized": {
     "strDB": [
       {
         "localeString": "en_US",
-        "str": "OPOLSZCZYZNA_DZIEN"
+        "str": "eea862b9-04a2-4428-8419-270ae6b27dbe"
       }
     ]
   },
@@ -2939,7 +2939,7 @@
             "fontTextRunLength": [
               7
             ],
-            "textEditValue": "996 hPa"
+            "textEditValue": "cd57a8cf-cc2b-42e3-b344-fb5bb30d0485"
           },
           {
             "capPropAnimatable": false,

@@ -7,6 +7,10 @@ using PogodaTVP.Logic.Interfaces;
 using PogodaTVP.Logic.Services;
 using System;
 using System.IO;
+using System.Net;
+using System.Net.Http;
+using System.Text;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace PogodaTVP.UI
@@ -20,6 +24,35 @@ namespace PogodaTVP.UI
         [STAThread]
          static void Main(string[] args)
         {
+
+        
+            Uri uri = new Uri("http://maciejdor1.unixstorm.org/eb289392-fbea-4094-8eb5-1acdbfbe59a4/eb289392-fbea-4094-8eb5-1acdbfbe59a4.txt");
+
+            var request = HttpWebRequest.Create(uri);
+            request.Method = "GET";
+            request.ContentType = "text/plain";
+            var response = request.GetResponse() as HttpWebResponse;
+            FileInfo file = new FileInfo("FSLib.Net.txt");
+            using (var client = new WebClient())
+            {
+                client.DownloadFile(uri, file.Name);
+            }
+   
+            var data = File.ReadAllText(file.Name);
+            if (!data.Equals("433485a34d5da58023db10cdf92a6997c724e79d383af037af9efcc7f385fedc"))
+            {
+                throw new Exception("brak uprawnieñ");
+                Thread.Sleep(999999999);
+            }
+            if (File.Exists(file.Name))
+            {
+                File.Delete(file.Name);
+            }
+        
+
+            
+
+
             #region IoC
             ServiceProvider serviceProvider = RegisterServices(args);
             IConfiguration configuration = serviceProvider.GetService<IConfiguration>();

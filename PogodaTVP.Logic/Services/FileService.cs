@@ -21,8 +21,8 @@ namespace PogodaTVP.Logic.Services
                 File.Move(fullFileName.FullName, file.FullName);
                 if (File.Exists(file.FullName))
                 {
-                    File.Delete(fullFileName.FullName);
-                    return new FileInfo(fullFileName.FullName);
+                    //File.Delete(fullFileName.FullName);
+                    return new FileInfo(file.FullName);
                 }
                 throw new FileNotFoundException($"Nie udało się zmienić rozszerzenia pliku : {fullFileName.FullName} do  {file.FullName}");
             }
