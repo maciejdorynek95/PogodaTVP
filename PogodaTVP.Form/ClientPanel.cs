@@ -155,7 +155,7 @@ namespace PogodaTVP.UI
         {
             try
             {
-                fileToMove.MoveTo(pathToMove.FullName, true);
+                fileToMove.MoveTo($@"{pathToMove.FullName}\{fileToMove.Name}" , true);
                 return true;
             }
             catch (Exception)

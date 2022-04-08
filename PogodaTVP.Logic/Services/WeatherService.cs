@@ -78,7 +78,7 @@ namespace PogodaTVP.Logic.Services
             {
                 Miasto = city.name,
                 Temperatura = city
-                    .day[(int)weatherPart]
+                    .day[(int)weatherDay]
                     .time[(int)weatherPart]
                     .temp.ToString(),
             };
