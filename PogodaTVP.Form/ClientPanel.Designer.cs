@@ -34,7 +34,6 @@
             this.button_GenerateAdobe = new System.Windows.Forms.Button();
             this.checkedListBox_Days = new System.Windows.Forms.CheckedListBox();
             this.checkedListBox_WeatherParts = new System.Windows.Forms.CheckedListBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button1_PobierzPogode = new System.Windows.Forms.Button();
             this.panel1_leftSidebar = new System.Windows.Forms.Panel();
             this.panel_middle = new System.Windows.Forms.Panel();
@@ -66,18 +65,17 @@
             this.panel1_footer.Controls.Add(this.button_GenerateAdobe);
             this.panel1_footer.Controls.Add(this.checkedListBox_Days);
             this.panel1_footer.Controls.Add(this.checkedListBox_WeatherParts);
-            this.panel1_footer.Controls.Add(this.checkBox1);
             this.panel1_footer.Controls.Add(this.button1_PobierzPogode);
             this.panel1_footer.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1_footer.Location = new System.Drawing.Point(0, 380);
             this.panel1_footer.MinimumSize = new System.Drawing.Size(0, 100);
             this.panel1_footer.Name = "panel1_footer";
-            this.panel1_footer.Size = new System.Drawing.Size(1111, 103);
+            this.panel1_footer.Size = new System.Drawing.Size(1172, 103);
             this.panel1_footer.TabIndex = 0;
             // 
             // button_GenerateAdobe
             // 
-            this.button_GenerateAdobe.Location = new System.Drawing.Point(720, 40);
+            this.button_GenerateAdobe.Location = new System.Drawing.Point(259, 68);
             this.button_GenerateAdobe.Name = "button_GenerateAdobe";
             this.button_GenerateAdobe.Size = new System.Drawing.Size(340, 23);
             this.button_GenerateAdobe.TabIndex = 4;
@@ -113,20 +111,11 @@
             this.checkedListBox_WeatherParts.Size = new System.Drawing.Size(120, 94);
             this.checkedListBox_WeatherParts.TabIndex = 2;
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(394, 49);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // button1_PobierzPogode
             // 
-            this.button1_PobierzPogode.Location = new System.Drawing.Point(259, 44);
+            this.button1_PobierzPogode.Location = new System.Drawing.Point(259, 39);
             this.button1_PobierzPogode.Name = "button1_PobierzPogode";
-            this.button1_PobierzPogode.Size = new System.Drawing.Size(120, 23);
+            this.button1_PobierzPogode.Size = new System.Drawing.Size(164, 23);
             this.button1_PobierzPogode.TabIndex = 0;
             this.button1_PobierzPogode.Text = "Pobierz pogode";
             this.button1_PobierzPogode.UseVisualStyleBackColor = true;
@@ -150,7 +139,7 @@
             this.panel_middle.Location = new System.Drawing.Point(0, 0);
             this.panel_middle.MinimumSize = new System.Drawing.Size(0, 100);
             this.panel_middle.Name = "panel_middle";
-            this.panel_middle.Size = new System.Drawing.Size(1111, 380);
+            this.panel_middle.Size = new System.Drawing.Size(1172, 380);
             this.panel_middle.TabIndex = 1;
             // 
             // tabControl1
@@ -164,7 +153,7 @@
             this.tabControl1.MinimumSize = new System.Drawing.Size(100, 100);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1111, 380);
+            this.tabControl1.Size = new System.Drawing.Size(1172, 380);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1_OpolszczyznaNoc
@@ -173,7 +162,7 @@
             this.tabPage1_OpolszczyznaNoc.Location = new System.Drawing.Point(4, 24);
             this.tabPage1_OpolszczyznaNoc.Name = "tabPage1_OpolszczyznaNoc";
             this.tabPage1_OpolszczyznaNoc.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1_OpolszczyznaNoc.Size = new System.Drawing.Size(1103, 352);
+            this.tabPage1_OpolszczyznaNoc.Size = new System.Drawing.Size(1164, 352);
             this.tabPage1_OpolszczyznaNoc.TabIndex = 1;
             this.tabPage1_OpolszczyznaNoc.Text = "Noc na Opolszczyznie";
             this.tabPage1_OpolszczyznaNoc.UseVisualStyleBackColor = true;
@@ -187,7 +176,7 @@
             this.flowLayoutPanel_OpolszczyznaNoc.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel_OpolszczyznaNoc.MinimumSize = new System.Drawing.Size(100, 100);
             this.flowLayoutPanel_OpolszczyznaNoc.Name = "flowLayoutPanel_OpolszczyznaNoc";
-            this.flowLayoutPanel_OpolszczyznaNoc.Size = new System.Drawing.Size(1097, 346);
+            this.flowLayoutPanel_OpolszczyznaNoc.Size = new System.Drawing.Size(1158, 346);
             this.flowLayoutPanel_OpolszczyznaNoc.TabIndex = 1;
             // 
             // tabPage2_Opolszczyzna_Dzien_Przed_Poludniem
@@ -260,13 +249,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1111, 483);
+            this.ClientSize = new System.Drawing.Size(1172, 483);
             this.Controls.Add(this.panel_middle);
             this.Controls.Add(this.panel1_footer);
             this.Name = "ClientPanel";
             this.Text = "Form1";
             this.panel1_footer.ResumeLayout(false);
-            this.panel1_footer.PerformLayout();
             this.panel_middle.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1_OpolszczyznaNoc.ResumeLayout(false);
@@ -292,7 +280,6 @@
         private System.Windows.Forms.TabPage tabPage1_OpolszczyznaNoc;
         private System.Windows.Forms.TabPage tabPage3_Opolszczyzna_Dzien_Po_Poludniu;
         private System.Windows.Forms.TabPage tabPage4_PolskaDzien;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button button1_PobierzPogode;
         public System.Windows.Forms.TabPage tabPage2_Opolszczyzna_Dzien_Przed_Poludniem;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem;

@@ -1,19 +1,21 @@
 ﻿using PogodaTVP.Core.Enums;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace PogodaTVP.UI.ViewModel
 {
     public class WeatherControlModel
     {
-        public Control control { get; set; }
+        public List<Control> controls { get; set; }
         public WeatherDay weatherDay { get; set; }
         public WeatherPart weatherPart { get; set; }
 
-        public WeatherControlModel(Control control, WeatherDay weatherDay, WeatherPart weatherPart)
+        public WeatherControlModel(List<Control> controls, WeatherDay weatherDay, WeatherPart weatherPart)
         {
-            this.control = control;
+            this.controls = controls;
             this.weatherDay = weatherDay;
             this.weatherPart = weatherPart;
+            
         }
 
     }

@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace PogodaTVP.UI
 {
@@ -46,24 +47,27 @@ namespace PogodaTVP.UI
                 listParts.Add(Enum.Parse<WeatherPart>(enumName, true));
             }
 
-            var controls = CreateWeatherUserControl(listDays, listParts);
-            foreach (var control in controls)
+            var weatherControlsGroup = CreateWeatherUserControl(listDays, listParts);
+            foreach (var weatherControl in weatherControlsGroup)
             {
-                control.control.CreateControl();
-
-                switch (control.weatherPart)
+                foreach (var innerControl in weatherControl.controls)
                 {
-                    case WeatherPart.Noc:
-                        addControlToFlowLayoutPanel(flowLayoutPanel_OpolszczyznaNoc, control.control);
-                        break;
-                    case WeatherPart.PrzedPoludniem:
-                        addControlToFlowLayoutPanel(flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem, control.control);
-                        break;
-                    case WeatherPart.PoPoludniu:
-                        addControlToFlowLayoutPanel(flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu, control.control);
-                        break;
-                    default:
-                        break;
+                    innerControl.CreateControl();
+                
+                    switch (weatherControl.weatherPart)
+                    {
+                        case WeatherPart.Noc:
+                            addControlToFlowLayoutPanel(flowLayoutPanel_OpolszczyznaNoc, innerControl);
+                            break;
+                        case WeatherPart.PrzedPoludniem:
+                            addControlToFlowLayoutPanel(flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem, innerControl);
+                            break;
+                        case WeatherPart.PoPoludniu:
+                            addControlToFlowLayoutPanel(flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu, innerControl);
+                            break;
+                        default:
+                            break;
+                    }
                 }
             }
         }
@@ -71,6 +75,7 @@ namespace PogodaTVP.UI
         private void addControlToFlowLayoutPanel(FlowLayoutPanel flowLayoutPanel, Control control)
         {
             flowLayoutPanel.Controls.Add(control);
+          
         }
         
         public IEnumerable<WeatherControlModel> CreateWeatherUserControl(List<WeatherDay> weatherDays, List<WeatherPart> weatherParts)
@@ -81,19 +86,16 @@ namespace PogodaTVP.UI
             {
                 foreach (var weatherPart in weatherParts)
                 {
-                    var weather = _weatherService.GetWeatherRegion(meteomax, weatherDay, weatherPart);
-                    foreach (var miasto in weather.PogodaMiasto)
-                    {
-                        var box = new CityWeather();
-                        box.label1_City.Text = miasto.Miasto;
-                        box.dateTimePicker1_Data.Value = Convert.ToDateTime(weather.Dzień);
-                        box.textBox3_Pressure.Text = weather.hPa;
-                        box.textBox2_temp.Text = miasto.Temperatura;
-                        box.comboBox1_SytuacjaPogodowa.DisplayMember = "Key";
-                        box.comboBox1_SytuacjaPogodowa.ValueMember = "Value";
-                        box.comboBox1_SytuacjaPogodowa.DataSource = Enum.GetValues(typeof(AdobeWeatherSituation));
-                        box.comboBox1_SytuacjaPogodowa.SelectedItem = miasto.SytuacjaPogodowa;
-                        yield return new WeatherControlModel(box, weatherDay, weatherPart);
+                    var boxCityWeatherGroup = new List<Control>();
+                    var weather = _weatherService.GetWeatherRegion(meteomax, weatherDay, weatherPart);                                             
+                    boxCityWeatherGroup.Add(new WindControl(weather.WiatrKierunek));
+
+
+                    foreach (var miasto in weather.PogodaMiasto)                   
+                    {                        
+                        var box = new CityWeather(miasto, weather);                                            
+                        boxCityWeatherGroup.Add(box);
+                        yield return new WeatherControlModel(boxCityWeatherGroup, weatherDay, weatherPart);
                     }
                 }
             }
@@ -176,7 +178,10 @@ namespace PogodaTVP.UI
                 new FileInfo(@$"..\..\..\..\PogodaTVP\Data\PogodaRejdych\{templateFilePath.Directory.Name}\project.aegraphic"),
                 new FileInfo(@$"..\..\..\..\PogodaTVP\Data\PogodaRejdych\{templateFilePath.Directory.Name}\thumb.png")
             };
-            string date = ((CityWeather)controls[0]).dateTimePicker1_Data.Value.ToShortDateString();
+
+          
+
+            string date = ((CityWeather)controls[1]).dateTimePicker1_Data.Value.ToShortDateString(); // pobieranie daty z [1] - box pogody zmienic na sprwadzanie czy to box pogodowy
 
             FileInfo outputFile = new FileInfo(jsonFile.FullName.Replace(jsonFile.Name, @$"{jsonFile.Directory.Name}_{date}\{jsonFile.Name}"));
 
@@ -194,10 +199,13 @@ namespace PogodaTVP.UI
             return _fileService.ChangeFileExtensionToMogrt(zippedFile); // adobe czyta .mogrt            
         }
 
-        public string ReplaceGuidToProjectWeatherPartInAdobeJsonFile(string jsonString, WeatherPart weatherPart)
+        public string ReplaceGuidToProjectWindInAdobeJsonFile(string jsonString,AdobeWeatherWindDirection weatherWind)
         {
-            
+            return jsonString = jsonString.Replace("6f60e122-cf73-43f2-b67a-fbe441a5b018", weatherWind.ToString());
+        }
 
+        public string ReplaceGuidToProjectWeatherPartInAdobeJsonFile(string jsonString, WeatherPart weatherPart)
+        {          
             switch (weatherPart)
             {
                 case WeatherPart.Noc:
@@ -314,10 +322,11 @@ namespace PogodaTVP.UI
             if (controls.Count == 0) return jsonData;
 
             jsonData = ReplaceGuidToProjectWeatherFileNameInAdobeJsonFile(jsonData, weatherPart);
-            jsonData = ReplaceGuidToProjectPressureInAdobeJsonFile(jsonData, Convert.ToDecimal(((CityWeather)controls[0]).textBox3_Pressure.Text));
+            jsonData = ReplaceGuidToProjectPressureInAdobeJsonFile(jsonData, Convert.ToDecimal(((CityWeather)controls[1]).textBox3_Pressure.Text)); // [1] - box z pogodą
             jsonData = ReplaceGuidToProjectWeatherPartInAdobeJsonFile(jsonData, weatherPart);
-
-
+            jsonData = ReplaceGuidToProjectWindInAdobeJsonFile(jsonData, Enum.Parse<AdobeWeatherWindDirection>(((WindControl)controls[0]).comboBox_WeatherDirectory.SelectedValue.ToString()));
+            
+            controls.Remove(controls[0]); // usuniecie wiatru 
             foreach (CityWeather control in controls)
             {
                 var miasto = control.label1_City.Text.ToUpper();

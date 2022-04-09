@@ -61,16 +61,21 @@ namespace PogodaTVP.Logic.Services
                 selectedCityWeatherGroup.Add(GetWeatherFromCity(city, weatherDay, weatherPart));
             }
 
-            return new WeatherRegion
+
+
+            WeatherRegion weatherRegion =  new WeatherRegion
             {
                 Wersja = weatherDay.ToString(),
                 Dzień = cities[1].day[(int)weatherDay].date.ToShortDateString(), // dla opola - bez znaczenia
                 hPa = cities[1].day[(int)weatherDay].time[(int)weatherPart].pressureSLP.ToString(), // hpa dla opola
                 PogodaMiasto = selectedCityWeatherGroup
             };
+             
+             weatherRegion.SetWeatherDirection(Enum.Parse<WeatherWindDirection>(cities[1].day[(int)weatherDay].time[(int)weatherPart].windDirection));
+             return weatherRegion;
         }
 
-   
+        
 
         private WeatherCity GetWeatherFromCity(meteomaxCity city, WeatherDay weatherDay, WeatherPart weatherPart)
         {
