@@ -98,6 +98,7 @@
             this.checkedListBox_Days.Name = "checkedListBox_Days";
             this.checkedListBox_Days.Size = new System.Drawing.Size(120, 94);
             this.checkedListBox_Days.TabIndex = 3;
+            this.checkedListBox_Days.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.checkedListBox_Days_ItemCheck);
             // 
             // checkedListBox_WeatherParts
             // 

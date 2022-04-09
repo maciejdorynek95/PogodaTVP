@@ -2972,11 +2972,11 @@
             "fontTextRunLength": [
               5
             ],
-            "textEditValue": "DZIEŃ"
+            "textEditValue": "de509dc5-e637-464b-9390-36c4cc33fd98"
           },
           {
             "capPropAnimatable": false,
-            "capPropDefault": 1,
+            "capPropDefault": 6f60e122-cf73-43f2-b67a-fbe441a5b018,
             "capPropMatchName": "12d3aa38-5ac2-49f4-aef5-5b46c5e5d7c7",
             "capPropType": 10,
             "capPropUIName": "WIATR",
