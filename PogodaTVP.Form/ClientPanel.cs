@@ -201,7 +201,7 @@ namespace PogodaTVP.UI
 
         public string ReplaceGuidToProjectWindInAdobeJsonFile(string jsonString,AdobeWeatherWindDirection weatherWind)
         {
-            return jsonString = jsonString.Replace("6f60e122-cf73-43f2-b67a-fbe441a5b018", weatherWind.ToString());
+            return jsonString = jsonString.Replace("6f60e122-cf73-43f2-b67a-fbe441a5b018", ((int)weatherWind).ToString());
         }
 
         public string ReplaceGuidToProjectWeatherPartInAdobeJsonFile(string jsonString, WeatherPart weatherPart)
