@@ -31,28 +31,31 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.panel1_footer = new System.Windows.Forms.Panel();
+            this.button_Clean = new System.Windows.Forms.Button();
             this.button_GenerateAdobe = new System.Windows.Forms.Button();
             this.checkedListBox_Days = new System.Windows.Forms.CheckedListBox();
             this.checkedListBox_WeatherParts = new System.Windows.Forms.CheckedListBox();
             this.button1_PobierzPogode = new System.Windows.Forms.Button();
             this.panel1_leftSidebar = new System.Windows.Forms.Panel();
             this.panel_middle = new System.Windows.Forms.Panel();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabControl_Kolejne3Dni = new System.Windows.Forms.TabControl();
             this.tabPage1_OpolszczyznaNoc = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel_OpolszczyznaNoc = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu = new System.Windows.Forms.FlowLayoutPanel();
-            this.tabPage4_PolskaDzien = new System.Windows.Forms.TabPage();
+            this.tabPage5_PolskaDzien = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel_PolskaDzien = new System.Windows.Forms.FlowLayoutPanel();
+            this.tabPage4_Kolejne3Dni = new System.Windows.Forms.TabPage();
+            this.button1_GenerateNext3Days = new System.Windows.Forms.Button();
             this.panel1_footer.SuspendLayout();
             this.panel_middle.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.tabControl_Kolejne3Dni.SuspendLayout();
             this.tabPage1_OpolszczyznaNoc.SuspendLayout();
             this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.SuspendLayout();
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.SuspendLayout();
-            this.tabPage4_PolskaDzien.SuspendLayout();
+            this.tabPage5_PolskaDzien.SuspendLayout();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -62,6 +65,8 @@
             // panel1_footer
             // 
             this.panel1_footer.AutoSize = true;
+            this.panel1_footer.Controls.Add(this.button1_GenerateNext3Days);
+            this.panel1_footer.Controls.Add(this.button_Clean);
             this.panel1_footer.Controls.Add(this.button_GenerateAdobe);
             this.panel1_footer.Controls.Add(this.checkedListBox_Days);
             this.panel1_footer.Controls.Add(this.checkedListBox_WeatherParts);
@@ -73,13 +78,23 @@
             this.panel1_footer.Size = new System.Drawing.Size(1172, 103);
             this.panel1_footer.TabIndex = 0;
             // 
+            // button_Clean
+            // 
+            this.button_Clean.Location = new System.Drawing.Point(506, 39);
+            this.button_Clean.Name = "button_Clean";
+            this.button_Clean.Size = new System.Drawing.Size(272, 23);
+            this.button_Clean.TabIndex = 5;
+            this.button_Clean.Text = "Wyczyść";
+            this.button_Clean.UseVisualStyleBackColor = true;
+            this.button_Clean.Click += new System.EventHandler(this.button_Clean_Click);
+            // 
             // button_GenerateAdobe
             // 
             this.button_GenerateAdobe.Location = new System.Drawing.Point(259, 68);
             this.button_GenerateAdobe.Name = "button_GenerateAdobe";
-            this.button_GenerateAdobe.Size = new System.Drawing.Size(340, 23);
+            this.button_GenerateAdobe.Size = new System.Drawing.Size(241, 23);
             this.button_GenerateAdobe.TabIndex = 4;
-            this.button_GenerateAdobe.Text = "Generuj Adobe Premiere";
+            this.button_GenerateAdobe.Text = "Generuj Adobe Premiere Wybrany Dzien";
             this.button_GenerateAdobe.UseVisualStyleBackColor = true;
             this.button_GenerateAdobe.Click += new System.EventHandler(this.button_GenerateAdobe_Click);
             // 
@@ -115,7 +130,7 @@
             // 
             this.button1_PobierzPogode.Location = new System.Drawing.Point(259, 39);
             this.button1_PobierzPogode.Name = "button1_PobierzPogode";
-            this.button1_PobierzPogode.Size = new System.Drawing.Size(164, 23);
+            this.button1_PobierzPogode.Size = new System.Drawing.Size(241, 23);
             this.button1_PobierzPogode.TabIndex = 0;
             this.button1_PobierzPogode.Text = "Pobierz pogode";
             this.button1_PobierzPogode.UseVisualStyleBackColor = true;
@@ -134,7 +149,7 @@
             // 
             this.panel_middle.AutoSize = true;
             this.panel_middle.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel_middle.Controls.Add(this.tabControl1);
+            this.panel_middle.Controls.Add(this.tabControl_Kolejne3Dni);
             this.panel_middle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_middle.Location = new System.Drawing.Point(0, 0);
             this.panel_middle.MinimumSize = new System.Drawing.Size(0, 100);
@@ -142,19 +157,20 @@
             this.panel_middle.Size = new System.Drawing.Size(1172, 380);
             this.panel_middle.TabIndex = 1;
             // 
-            // tabControl1
+            // tabControl_Kolejne3Dni
             // 
-            this.tabControl1.Controls.Add(this.tabPage1_OpolszczyznaNoc);
-            this.tabControl1.Controls.Add(this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem);
-            this.tabControl1.Controls.Add(this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu);
-            this.tabControl1.Controls.Add(this.tabPage4_PolskaDzien);
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.MinimumSize = new System.Drawing.Size(100, 100);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1172, 380);
-            this.tabControl1.TabIndex = 0;
+            this.tabControl_Kolejne3Dni.Controls.Add(this.tabPage1_OpolszczyznaNoc);
+            this.tabControl_Kolejne3Dni.Controls.Add(this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem);
+            this.tabControl_Kolejne3Dni.Controls.Add(this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu);
+            this.tabControl_Kolejne3Dni.Controls.Add(this.tabPage4_Kolejne3Dni);
+            this.tabControl_Kolejne3Dni.Controls.Add(this.tabPage5_PolskaDzien);
+            this.tabControl_Kolejne3Dni.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl_Kolejne3Dni.Location = new System.Drawing.Point(0, 0);
+            this.tabControl_Kolejne3Dni.MinimumSize = new System.Drawing.Size(100, 100);
+            this.tabControl_Kolejne3Dni.Name = "tabControl_Kolejne3Dni";
+            this.tabControl_Kolejne3Dni.SelectedIndex = 0;
+            this.tabControl_Kolejne3Dni.Size = new System.Drawing.Size(1172, 380);
+            this.tabControl_Kolejne3Dni.TabIndex = 0;
             // 
             // tabPage1_OpolszczyznaNoc
             // 
@@ -185,7 +201,7 @@
             this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.Location = new System.Drawing.Point(4, 24);
             this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.Name = "tabPage2_Opolszczyzna_Dzien_Przed_Poludniem";
             this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.Size = new System.Drawing.Size(1103, 352);
+            this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.Size = new System.Drawing.Size(1164, 352);
             this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.TabIndex = 0;
             this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.Text = "Dzien na Opolszczyznie - przed poludniem";
             this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.UseVisualStyleBackColor = true;
@@ -199,7 +215,7 @@
             this.flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.MinimumSize = new System.Drawing.Size(100, 100);
             this.flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Name = "flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem";
-            this.flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Size = new System.Drawing.Size(1097, 346);
+            this.flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Size = new System.Drawing.Size(1158, 346);
             this.flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.TabIndex = 0;
             // 
             // tabPage3_Opolszczyzna_Dzien_Po_Poludniu
@@ -207,7 +223,7 @@
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.Controls.Add(this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu);
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.Location = new System.Drawing.Point(4, 24);
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.Name = "tabPage3_Opolszczyzna_Dzien_Po_Poludniu";
-            this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.Size = new System.Drawing.Size(1103, 352);
+            this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.Size = new System.Drawing.Size(1164, 352);
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.TabIndex = 2;
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.Text = "Dzien na Opolszczyznie - po poludniu";
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.UseVisualStyleBackColor = true;
@@ -221,18 +237,18 @@
             this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.MinimumSize = new System.Drawing.Size(100, 100);
             this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Name = "flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu";
-            this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Size = new System.Drawing.Size(1103, 352);
+            this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Size = new System.Drawing.Size(1164, 352);
             this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.TabIndex = 2;
             // 
-            // tabPage4_PolskaDzien
+            // tabPage5_PolskaDzien
             // 
-            this.tabPage4_PolskaDzien.Controls.Add(this.flowLayoutPanel_PolskaDzien);
-            this.tabPage4_PolskaDzien.Location = new System.Drawing.Point(4, 24);
-            this.tabPage4_PolskaDzien.Name = "tabPage4_PolskaDzien";
-            this.tabPage4_PolskaDzien.Size = new System.Drawing.Size(1103, 352);
-            this.tabPage4_PolskaDzien.TabIndex = 4;
-            this.tabPage4_PolskaDzien.Text = "Polska Dzien";
-            this.tabPage4_PolskaDzien.UseVisualStyleBackColor = true;
+            this.tabPage5_PolskaDzien.Controls.Add(this.flowLayoutPanel_PolskaDzien);
+            this.tabPage5_PolskaDzien.Location = new System.Drawing.Point(4, 24);
+            this.tabPage5_PolskaDzien.Name = "tabPage5_PolskaDzien";
+            this.tabPage5_PolskaDzien.Size = new System.Drawing.Size(1164, 352);
+            this.tabPage5_PolskaDzien.TabIndex = 4;
+            this.tabPage5_PolskaDzien.Text = "Polska Dzien";
+            this.tabPage5_PolskaDzien.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel_PolskaDzien
             // 
@@ -242,8 +258,28 @@
             this.flowLayoutPanel_PolskaDzien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel_PolskaDzien.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel_PolskaDzien.Name = "flowLayoutPanel_PolskaDzien";
-            this.flowLayoutPanel_PolskaDzien.Size = new System.Drawing.Size(1103, 352);
+            this.flowLayoutPanel_PolskaDzien.Size = new System.Drawing.Size(1164, 352);
             this.flowLayoutPanel_PolskaDzien.TabIndex = 2;
+            // 
+            // tabPage4_Kolejne3Dni
+            // 
+            this.tabPage4_Kolejne3Dni.Location = new System.Drawing.Point(4, 24);
+            this.tabPage4_Kolejne3Dni.Name = "tabPage4_Kolejne3Dni";
+            this.tabPage4_Kolejne3Dni.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4_Kolejne3Dni.Size = new System.Drawing.Size(1164, 352);
+            this.tabPage4_Kolejne3Dni.TabIndex = 5;
+            this.tabPage4_Kolejne3Dni.Text = "Kolejne3Dni";
+            this.tabPage4_Kolejne3Dni.UseVisualStyleBackColor = true;
+            // 
+            // button1_GenerateNext3Days
+            // 
+            this.button1_GenerateNext3Days.Location = new System.Drawing.Point(506, 68);
+            this.button1_GenerateNext3Days.Name = "button1_GenerateNext3Days";
+            this.button1_GenerateNext3Days.Size = new System.Drawing.Size(272, 23);
+            this.button1_GenerateNext3Days.TabIndex = 6;
+            this.button1_GenerateNext3Days.Text = "Generuj Adobe Premiere Suma Kolejne 3 dni";
+            this.button1_GenerateNext3Days.UseVisualStyleBackColor = true;
+            this.button1_GenerateNext3Days.Click += new System.EventHandler(this.button1_GenerateNext3Days_Click);
             // 
             // ClientPanel
             // 
@@ -256,15 +292,15 @@
             this.Text = "Form1";
             this.panel1_footer.ResumeLayout(false);
             this.panel_middle.ResumeLayout(false);
-            this.tabControl1.ResumeLayout(false);
+            this.tabControl_Kolejne3Dni.ResumeLayout(false);
             this.tabPage1_OpolszczyznaNoc.ResumeLayout(false);
             this.tabPage1_OpolszczyznaNoc.PerformLayout();
             this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.ResumeLayout(false);
             this.tabPage2_Opolszczyzna_Dzien_Przed_Poludniem.PerformLayout();
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.ResumeLayout(false);
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu.PerformLayout();
-            this.tabPage4_PolskaDzien.ResumeLayout(false);
-            this.tabPage4_PolskaDzien.PerformLayout();
+            this.tabPage5_PolskaDzien.ResumeLayout(false);
+            this.tabPage5_PolskaDzien.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -276,10 +312,10 @@
         private System.Windows.Forms.Panel panel1_footer;
         private System.Windows.Forms.Panel panel1_leftSidebar;
         private System.Windows.Forms.Panel panel_middle;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tabControl_Kolejne3Dni;
         private System.Windows.Forms.TabPage tabPage1_OpolszczyznaNoc;
         private System.Windows.Forms.TabPage tabPage3_Opolszczyzna_Dzien_Po_Poludniu;
-        private System.Windows.Forms.TabPage tabPage4_PolskaDzien;
+        private System.Windows.Forms.TabPage tabPage5_PolskaDzien;
         private System.Windows.Forms.Button button1_PobierzPogode;
         public System.Windows.Forms.TabPage tabPage2_Opolszczyzna_Dzien_Przed_Poludniem;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem;
@@ -288,7 +324,9 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel_OpolszczyznaNoc;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel_PolskaDzien;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button1_GenerateNext3Days;
         private System.Windows.Forms.Button button_GenerateAdobe;
+        private System.Windows.Forms.Button button_Clean;
+        private System.Windows.Forms.TabPage tabPage4_Kolejne3Dni;
     }
 }

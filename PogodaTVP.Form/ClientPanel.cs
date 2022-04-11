@@ -9,6 +9,8 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Linq;
+using System.Diagnostics.Metrics;
+using System.Diagnostics;
 
 namespace PogodaTVP.UI
 {
@@ -17,12 +19,20 @@ namespace PogodaTVP.UI
         private readonly IConfiguration _configuration;
         private readonly IWeatherService _weatherService;
         private readonly IFileService _fileService;
-       
+        FileInfo pathToOpolszczyznaNocTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\OPOLSZCZYZNA_NOC\definition.json");
+        FileInfo pathToOpolszczyznaDzienTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\definition.json");
+        FileInfo pathToOpolszczyznaDniTygodniaTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\DNI_TYGODNIA\definition.json");
+
+        DirectoryInfo pathToGenerateData = new DirectoryInfo(@"..\..\..\..\PogodaTVP\Data\GeneratedAdobeWeather\");
+        DirectoryInfo pathToExport { get; set; }
+
         public ClientPanel(IConfiguration configuration, IWeatherService weatherService, IFileService fileService)
         {
             _weatherService = weatherService;
             _configuration = configuration;
+            pathToExport = new DirectoryInfo(@_configuration.GetSection("Premiere").GetSection("PathForMogrtFiles").Value);
             _fileService = fileService;
+
             InitializeComponent();
         }
 
@@ -101,39 +111,47 @@ namespace PogodaTVP.UI
             }
         }
 
+  
+
         public async void button_GenerateAdobe_Click(object sender, EventArgs e)
         {
               
-            FileInfo pathToOpolszczyznaNocTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\OPOLSZCZYZNA_NOC\definition.json");
-            FileInfo pathToOpolszczyznaDzienTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\definition.json");
+            
 
-            DirectoryInfo pathToGenerateData = new DirectoryInfo(@"..\..\..\..\PogodaTVP\Data\GeneratedAdobeWeather\");
-            var pathToExport = new DirectoryInfo(@_configuration.GetSection("Premiere").GetSection("PathForMogrtFiles").Value);
+       
 
             if (flowLayoutPanel_OpolszczyznaNoc.Controls.Count > 0)
             {
-                var jsonData = File.ReadAllText(pathToOpolszczyznaNocTemplate.FullName);
-                var outDirectory = CreateNewDirectoryByState(pathToGenerateData, WeatherPart.Noc, pathToOpolszczyznaNocTemplate);
-                var adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaNoc.Controls, WeatherPart.Noc, pathToOpolszczyznaNocTemplate);
-                MoveFile(adobeFile, pathToExport);
+               
+                var result = await CreateAdobeWeather(flowLayoutPanel_OpolszczyznaNoc.Controls, pathToOpolszczyznaNocTemplate, WeatherPart.Noc, pathToGenerateData, pathToExport);
+               
             }
 
             if (flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Controls.Count > 0)
             {
-                var jsonData = File.ReadAllText(pathToOpolszczyznaDzienTemplate.FullName);
-                var outDirectory = CreateNewDirectoryByState(pathToGenerateData,WeatherPart.PrzedPoludniem, pathToOpolszczyznaDzienTemplate);
-                var adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Controls, WeatherPart.PrzedPoludniem, pathToOpolszczyznaDzienTemplate) ;
-                MoveFile(adobeFile, pathToExport);
+    
+                var result = await CreateAdobeWeather(flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Controls, pathToOpolszczyznaDzienTemplate, WeatherPart.PrzedPoludniem, pathToGenerateData, pathToExport);
+                
             }
 
             if (flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Controls.Count > 0)
             {
-                var jsonData = File.ReadAllText(pathToOpolszczyznaDzienTemplate.FullName);
-                var outDirectory = CreateNewDirectoryByState(pathToGenerateData, WeatherPart.PoPoludniu, pathToOpolszczyznaDzienTemplate);
-                var adobeFile = GenerateAdobeFile(outDirectory, jsonData, flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Controls, WeatherPart.PoPoludniu, pathToOpolszczyznaDzienTemplate);
-                MoveFile(adobeFile, pathToExport);
+                var result = await CreateAdobeWeather(flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Controls, pathToOpolszczyznaDzienTemplate, WeatherPart.PoPoludniu, pathToGenerateData, pathToExport);             
             }
-            
+
+        }
+
+        private async Task<bool> CreateAdobeWeather(Control.ControlCollection layoutPanel,FileInfo pathToOpolszczyznaNocTemplate, WeatherPart weatherPart, DirectoryInfo pathToGenerateData, DirectoryInfo pathToExport)
+        {
+         
+            var jsonData = File.ReadAllText(pathToOpolszczyznaNocTemplate.FullName);
+                var outDirectory = CreateNewDirectoryByState(pathToGenerateData, weatherPart, pathToOpolszczyznaNocTemplate);
+                var adobeFile = GenerateAdobeFile(outDirectory, jsonData, layoutPanel, weatherPart, pathToOpolszczyznaNocTemplate);
+       
+            return await Task.FromResult(MoveFile(adobeFile, pathToExport));
+                
+        
+
         }
 
         private FileInfo CreateNewDirectoryByState(DirectoryInfo oldDirectory, WeatherPart weatherPart, FileInfo fileName )
@@ -201,7 +219,7 @@ namespace PogodaTVP.UI
 
         public string ReplaceGuidToProjectWindInAdobeJsonFile(string jsonString,AdobeWeatherWindDirection weatherWind)
         {
-            return jsonString = jsonString.Replace("6f60e122-cf73-43f2-b67a-fbe441a5b018", ((int)weatherWind).ToString());
+            return jsonString.Replace("6f60e122-cf73-43f2-b67a-fbe441a5b018", ((int)weatherWind).ToString());
         }
 
         public string ReplaceGuidToProjectWeatherPartInAdobeJsonFile(string jsonString, WeatherPart weatherPart)
@@ -209,14 +227,14 @@ namespace PogodaTVP.UI
             switch (weatherPart)
             {
                 case WeatherPart.Noc:
-                    return jsonString = jsonString.Replace("de509dc5-e637-464b-9390-36c4cc33fd98", weatherPart.ToString()
+                    return jsonString.Replace("de509dc5-e637-464b-9390-36c4cc33fd98", weatherPart.ToString()
                         .ToUpper());
                 case WeatherPart.PrzedPoludniem:
-                    return jsonString = jsonString.Replace("de509dc5-e637-464b-9390-36c4cc33fd98", weatherPart.ToString()
+                    return jsonString.Replace("de509dc5-e637-464b-9390-36c4cc33fd98", weatherPart.ToString()
                         .Replace(WeatherPart.PrzedPoludniem.ToString(),"PRZED POŁUDNIEM"));
                 case WeatherPart.PoPoludniu:
-                    return jsonString = jsonString.Replace("de509dc5-e637-464b-9390-36c4cc33fd98", weatherPart.ToString()
-                        .Replace(WeatherPart.PrzedPoludniem.ToString(), "PO POŁUDNIU"));
+                    return jsonString.Replace("de509dc5-e637-464b-9390-36c4cc33fd98", weatherPart.ToString()
+                        .Replace(WeatherPart.PoPoludniu.ToString(), "PO POŁUDNIU"));
                 default:
                     return jsonString;
             }        
@@ -326,8 +344,8 @@ namespace PogodaTVP.UI
             jsonData = ReplaceGuidToProjectWeatherPartInAdobeJsonFile(jsonData, weatherPart);
             jsonData = ReplaceGuidToProjectWindInAdobeJsonFile(jsonData, Enum.Parse<AdobeWeatherWindDirection>(((WindControl)controls[0]).comboBox_WeatherDirectory.SelectedValue.ToString()));
             
-            controls.Remove(controls[0]); // usuniecie wiatru 
-            foreach (CityWeather control in controls)
+            //controls.Remove(controls[0]); // usuniecie wiatru 
+            foreach (CityWeather control in controls.OfType<CityWeather>())
             {
                 var miasto = control.label1_City.Text.ToUpper();
 
@@ -364,6 +382,37 @@ namespace PogodaTVP.UI
         {
             for (int ix = 0; ix < checkedListBox_Days.Items.Count; ++ix)
                 if (ix != e.Index) checkedListBox_Days.SetItemChecked(ix, false);
+        }
+
+        private void button_Clean_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Controls.Clear();
+            flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem.Controls.Clear();
+            flowLayoutPanel_OpolszczyznaNoc.Controls.Clear();
+            flowLayoutPanel_PolskaDzien.Controls.Clear();
+
+        }
+
+        private async void button1_GenerateNext3Days_Click(object sender, EventArgs e)
+        {         
+            if (tabControl_Kolejne3Dni.Controls.Count > 0)
+            {
+                List <WeatherDay> listDays= new List<WeatherDay>() { WeatherDay.Jutro, WeatherDay.Pojutrze, WeatherDay.PoPojutrze};
+                List<WeatherPart> listParts = new List<WeatherPart>() { WeatherPart.Noc, WeatherPart.PoPoludniu, WeatherPart.PrzedPoludniem };
+                var weatherControlsGroup = CreateWeatherUserControl(listDays, listParts);
+                var maxTempDay1 = weatherControlsGroup;
+                var sum = 0;
+                foreach (var item in maxTempDay1)
+                {
+                    foreach (CityWeather item2 in item.controls.OfType<CityWeather>())
+                    {
+                        sum += Convert.ToInt16(item2.textBox2_temp.Text);
+                    }
+                   
+                }
+                sum = sum / maxTempDay1.Select(x=>x.controls.Count).First();
+                var result = await CreateAdobeWeather(tabControl_Kolejne3Dni.Controls, pathToOpolszczyznaNocTemplate, WeatherPart.Noc, pathToGenerateData, pathToExport);
+            }
         }
     }
 }
