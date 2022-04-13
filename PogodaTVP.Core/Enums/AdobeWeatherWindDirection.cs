@@ -2,14 +2,14 @@
 {
     public enum AdobeWeatherWindDirection
     {
-              BRAK = 0,
-              Z_POLUDNIA = 1,
-              Z_POLUDNIOWEGO_ZACHODU = 2,
-              Z_ZACHODU = 3,
-              Z_POLNOCNEGO_ZACHODU = 4,
-              Z_POLNOCY = 5,
-              Z_POLNOCNEGO_WSCHODU = 6,
-              ZE_WSCHODU = 7,
-              Z_POLUDNIOWEGO_WSCHODU = 8
+              BRAK = 1,
+              Z_POLUDNIA = 2,
+              Z_POLUDNIOWEGO_ZACHODU = 3,
+              Z_ZACHODU = 4,
+              Z_POLNOCNEGO_ZACHODU = 5,
+              Z_POLNOCY = 6,
+              Z_POLNOCNEGO_WSCHODU = 7,
+              ZE_WSCHODU = 8,
+              Z_POLUDNIOWEGO_WSCHODU = 9
     }
 }
