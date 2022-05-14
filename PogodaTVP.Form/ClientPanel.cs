@@ -19,11 +19,12 @@ namespace PogodaTVP.UI
         private readonly IConfiguration _configuration;
         private readonly IWeatherService _weatherService;
         private readonly IFileService _fileService;
-        FileInfo pathToOpolszczyznaNocTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\OPOLSZCZYZNA_NOC\definition.json");
-        FileInfo pathToOpolszczyznaDzienTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\definition.json");
-        FileInfo pathToOpolszczyznaDniTygodniaTemplate = new FileInfo(@"..\..\..\..\PogodaTVP\Data\PogodaRejdych\DNI_TYGODNIA\definition.json");
 
-        DirectoryInfo pathToGenerateData = new DirectoryInfo(@"..\..\..\..\PogodaTVP\Data\GeneratedAdobeWeather\");
+        FileInfo pathToOpolszczyznaNocTemplate = new FileInfo(@$"{Environment.CurrentDirectory}\Data\PogodaRejdych\OPOLSZCZYZNA_NOC\definition.json");
+        FileInfo pathToOpolszczyznaDzienTemplate = new FileInfo(@$"{Environment.CurrentDirectory}\Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\definition.json");
+        FileInfo pathToOpolszczyznaDniTygodniaTemplate = new FileInfo(@$"{Environment.CurrentDirectory}\Data\PogodaRejdych\DNI_TYGODNIA\definition.json");
+
+        DirectoryInfo pathToGenerateData = new DirectoryInfo(@$"{Environment.CurrentDirectory}\Data\GeneratedAdobeWeather\");
         DirectoryInfo pathToExport { get; set; }
 
         public ClientPanel(IConfiguration configuration, IWeatherService weatherService, IFileService fileService)
@@ -193,8 +194,8 @@ namespace PogodaTVP.UI
         {
             List<FileInfo> requiredFiles = new List<FileInfo>()
             {
-                new FileInfo(@$"..\..\..\..\PogodaTVP\Data\PogodaRejdych\{templateFilePath.Directory.Name}\project.aegraphic"),
-                new FileInfo(@$"..\..\..\..\PogodaTVP\Data\PogodaRejdych\{templateFilePath.Directory.Name}\thumb.png")
+                new FileInfo(@$"{Environment.CurrentDirectory}\Data\PogodaRejdych\{templateFilePath.Directory.Name}\project.aegraphic"),
+                new FileInfo(@$"{Environment.CurrentDirectory}\Data\PogodaRejdych\{templateFilePath.Directory.Name}\thumb.png")
             };
 
           

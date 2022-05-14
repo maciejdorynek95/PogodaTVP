@@ -31,6 +31,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.panel1_footer = new System.Windows.Forms.Panel();
+            this.button1_GenerateNext3Days = new System.Windows.Forms.Button();
             this.button_Clean = new System.Windows.Forms.Button();
             this.button_GenerateAdobe = new System.Windows.Forms.Button();
             this.checkedListBox_Days = new System.Windows.Forms.CheckedListBox();
@@ -45,10 +46,9 @@
             this.flowLayoutPanel_OpolszczyznaDzien_Przed_Poludniem = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPage3_Opolszczyzna_Dzien_Po_Poludniu = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu = new System.Windows.Forms.FlowLayoutPanel();
+            this.tabPage4_Kolejne3Dni = new System.Windows.Forms.TabPage();
             this.tabPage5_PolskaDzien = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel_PolskaDzien = new System.Windows.Forms.FlowLayoutPanel();
-            this.tabPage4_Kolejne3Dni = new System.Windows.Forms.TabPage();
-            this.button1_GenerateNext3Days = new System.Windows.Forms.Button();
             this.panel1_footer.SuspendLayout();
             this.panel_middle.SuspendLayout();
             this.tabControl_Kolejne3Dni.SuspendLayout();
@@ -77,6 +77,17 @@
             this.panel1_footer.Name = "panel1_footer";
             this.panel1_footer.Size = new System.Drawing.Size(1172, 103);
             this.panel1_footer.TabIndex = 0;
+            // 
+            // button1_GenerateNext3Days
+            // 
+            this.button1_GenerateNext3Days.Location = new System.Drawing.Point(506, 68);
+            this.button1_GenerateNext3Days.Name = "button1_GenerateNext3Days";
+            this.button1_GenerateNext3Days.Size = new System.Drawing.Size(272, 23);
+            this.button1_GenerateNext3Days.TabIndex = 6;
+            this.button1_GenerateNext3Days.Text = "Generuj Adobe Premiere Suma Kolejne 3 dni";
+            this.button1_GenerateNext3Days.UseVisualStyleBackColor = true;
+            this.button1_GenerateNext3Days.Visible = false;
+            this.button1_GenerateNext3Days.Click += new System.EventHandler(this.button1_GenerateNext3Days_Click);
             // 
             // button_Clean
             // 
@@ -240,6 +251,16 @@
             this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.Size = new System.Drawing.Size(1164, 352);
             this.flowLayoutPanel_OpolszczyznaDzien_Po_Poludniu.TabIndex = 2;
             // 
+            // tabPage4_Kolejne3Dni
+            // 
+            this.tabPage4_Kolejne3Dni.Location = new System.Drawing.Point(4, 24);
+            this.tabPage4_Kolejne3Dni.Name = "tabPage4_Kolejne3Dni";
+            this.tabPage4_Kolejne3Dni.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4_Kolejne3Dni.Size = new System.Drawing.Size(1164, 352);
+            this.tabPage4_Kolejne3Dni.TabIndex = 5;
+            this.tabPage4_Kolejne3Dni.Text = "Kolejne3Dni";
+            this.tabPage4_Kolejne3Dni.UseVisualStyleBackColor = true;
+            // 
             // tabPage5_PolskaDzien
             // 
             this.tabPage5_PolskaDzien.Controls.Add(this.flowLayoutPanel_PolskaDzien);
@@ -260,26 +281,6 @@
             this.flowLayoutPanel_PolskaDzien.Name = "flowLayoutPanel_PolskaDzien";
             this.flowLayoutPanel_PolskaDzien.Size = new System.Drawing.Size(1164, 352);
             this.flowLayoutPanel_PolskaDzien.TabIndex = 2;
-            // 
-            // tabPage4_Kolejne3Dni
-            // 
-            this.tabPage4_Kolejne3Dni.Location = new System.Drawing.Point(4, 24);
-            this.tabPage4_Kolejne3Dni.Name = "tabPage4_Kolejne3Dni";
-            this.tabPage4_Kolejne3Dni.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4_Kolejne3Dni.Size = new System.Drawing.Size(1164, 352);
-            this.tabPage4_Kolejne3Dni.TabIndex = 5;
-            this.tabPage4_Kolejne3Dni.Text = "Kolejne3Dni";
-            this.tabPage4_Kolejne3Dni.UseVisualStyleBackColor = true;
-            // 
-            // button1_GenerateNext3Days
-            // 
-            this.button1_GenerateNext3Days.Location = new System.Drawing.Point(506, 68);
-            this.button1_GenerateNext3Days.Name = "button1_GenerateNext3Days";
-            this.button1_GenerateNext3Days.Size = new System.Drawing.Size(272, 23);
-            this.button1_GenerateNext3Days.TabIndex = 6;
-            this.button1_GenerateNext3Days.Text = "Generuj Adobe Premiere Suma Kolejne 3 dni";
-            this.button1_GenerateNext3Days.UseVisualStyleBackColor = true;
-            this.button1_GenerateNext3Days.Click += new System.EventHandler(this.button1_GenerateNext3Days_Click);
             // 
             // ClientPanel
             // 

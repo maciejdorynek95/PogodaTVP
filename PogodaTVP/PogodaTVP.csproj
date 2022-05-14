@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,7 +12,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Data\Cumulus\file.xml" />
+    <None Remove="Data\Cumulus\ReadMe.txt" />
+    <None Remove="Data\Cumulus\TextFile1.txt" />
     <None Remove="Data\htmlPogoda.html" />
+    <None Remove="Data\PogodaRejdych\DNI_TYGODNIA\definition.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\Cumulus\ReadMe.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\PogodaRejdych\DNI_TYGODNIA\definition.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="Data\Cumulus\file.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
   </ItemGroup>
 
   <ItemGroup>
@@ -20,7 +39,6 @@
     <PackageReference Include="ChoETL.JSON" Version="1.2.1.42" />
     <PackageReference Include="DocumentFormat.OpenXml" Version="2.15.0" />
     <PackageReference Include="HtmlAgilityPack" Version="1.11.42" />
-    <PackageReference Include="HtmlToOpenXml" Version="1.6.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
@@ -43,13 +61,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Data\Cumulus\file.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <Resource Include="Data\Cumulus\TextFile1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Data\GeneratedAdobeWeather\ReadMe.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Data\PogodaRejdych\Archiwum\definition.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\DNI_TYGODNIA\project.aegraphic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\DNI_TYGODNIA\thumb.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Data\PogodaRejdych\OPOLSZCZYZNA_DZIEN\definition.json">
@@ -70,11 +95,42 @@
     <None Update="Data\PogodaRejdych\OPOLSZCZYZNA_NOC\thumb.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Data\Cumulus\" />
-    <Folder Include="Data\GeneratedAdobeWeather\" />
+    <None Update="Data\PogodaRejdych\POLSKA_DZIEN\definition.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\POLSKA_DZIEN\project.aegraphic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\POLSKA_DZIEN\thumb.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\POLSKA_NOC\definition.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\POLSKA_NOC\project.aegraphic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\POLSKA_NOC\thumb.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\WARUNKI_DZIEN\definition.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\WARUNKI_DZIEN\project.aegraphic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\WARUNKI_DZIEN\thumb.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\WARUNKI_NOC\definition.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\WARUNKI_NOC\project.aegraphic">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PogodaRejdych\WARUNKI_NOC\thumb.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

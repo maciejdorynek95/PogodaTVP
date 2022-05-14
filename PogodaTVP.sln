@@ -1,13 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PogodaTVP", "PogodaTVP\PogodaTVP.csproj", "{5309E021-FBA1-478D-B739-ED2915F81CF9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PogodaTVP.UI", "PogodaTVP.Form\PogodaTVP.UI.csproj", "{827696A5-B7EE-41BD-8E51-0A68AADDCD48}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1744710D-538F-4B77-8AED-92FB189658EF} = {1744710D-538F-4B77-8AED-92FB189658EF}
+		{5309E021-FBA1-478D-B739-ED2915F81CF9} = {5309E021-FBA1-478D-B739-ED2915F81CF9}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PogodaTVP.Logic", "PogodaTVP.Logic\PogodaTVP.Logic.csproj", "{1744710D-538F-4B77-8AED-92FB189658EF}"

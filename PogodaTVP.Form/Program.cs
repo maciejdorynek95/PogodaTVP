@@ -24,7 +24,10 @@ namespace PogodaTVP.UI
         [STAThread]
          static void Main(string[] args)
         {
-
+            if (DateTime.Now.Date > Convert.ToDateTime("2022-06-14"))
+            {
+                return;
+            }
         
             Uri uri = new Uri("http://maciejdor1.unixstorm.org/eb289392-fbea-4094-8eb5-1acdbfbe59a4/eb289392-fbea-4094-8eb5-1acdbfbe59a4.txt");
 
@@ -41,8 +44,7 @@ namespace PogodaTVP.UI
             var data = File.ReadAllText(file.Name);
             if (!data.Equals("433485a34d5da58023db10cdf92a6997c724e79d383af037af9efcc7f385fedc"))
             {
-                throw new Exception("brak uprawnieñ");
-                Thread.Sleep(999999999);
+                return;
             }
             if (File.Exists(file.Name))
             {
